@@ -1,0 +1,32 @@
+Namespace(activity_size=100, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/Sepsis_attributes.txt', attribute_size=100, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/Sepsis.txt', data_name='Sepsis', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-Sepsis-50 .txt', log_freq=1, lr=0.01, mask_id=18, max_seq_length=100, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=14141, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/Sepsis_time_attributes.txt', time_scaler=MinMaxScaler(), weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0415'}
+valid_loss: 36.76502320705316 {'epoch': 1, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0862'}
+valid_loss: 36.81938974673931 {'epoch': 2, 'rec_avg_loss': '0.0721', 'rec_cur_loss': '0.1081'}
+valid_loss: 36.74792332119412 {'epoch': 3, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0319'}
+valid_loss: 36.860935846964516 {'epoch': 4, 'rec_avg_loss': '0.0721', 'rec_cur_loss': '0.1468'}
+valid_loss: 36.86877035483336 {'epoch': 5, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0531'}
+valid_loss: 36.93477447216328 {'epoch': 6, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0223'}
+valid_loss: 37.026419256487465 {'epoch': 7, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0546'}
+valid_loss: 36.95234502482618 {'epoch': 8, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0573'}
+valid_loss: 36.863307887672356 {'epoch': 9, 'rec_avg_loss': '0.0721', 'rec_cur_loss': '0.0617'}
+valid_loss: 36.9608922045455 {'epoch': 10, 'rec_avg_loss': '0.0721', 'rec_cur_loss': '0.1200'}
+valid_loss: 36.841234052283134 {'epoch': 11, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0847'}
+valid_loss: 36.77570096447936 {'epoch': 12, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.1006'}
+valid_loss: 36.74246655162583 {'epoch': 13, 'rec_avg_loss': '0.0721', 'rec_cur_loss': '0.0817'}
+valid_loss: 36.801818953620064 {'epoch': 14, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0829'}
+valid_loss: 36.77641329806075 {'epoch': 15, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.1080'}
+valid_loss: 36.74222536983653 {'epoch': 16, 'rec_avg_loss': '0.0721', 'rec_cur_loss': '0.0217'}
+valid_loss: 37.01003156971728 {'epoch': 17, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0621'}
+valid_loss: 36.78187585488344 {'epoch': 18, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0553'}
+valid_loss: 36.715872030991775 {'epoch': 19, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0639'}
+valid_loss: 37.010037422180176 {'epoch': 20, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0440'}
+valid_loss: 36.83173341017503 {'epoch': 21, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0640'}
+valid_loss: 36.9437981629983 {'epoch': 22, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0217'}
+valid_loss: 36.94807177323561 {'epoch': 23, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0222'}
+valid_loss: 36.768584373669746 {'epoch': 24, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0459'}
+valid_loss: 36.887765982212166 {'epoch': 25, 'rec_avg_loss': '0.0721', 'rec_cur_loss': '0.0983'}
+valid_loss: 36.99602801983173 {'epoch': 26, 'rec_avg_loss': '0.0722', 'rec_cur_loss': '0.0894'}
+valid_loss: 36.764546524765144 {'epoch': 27, 'rec_avg_loss': '0.0721', 'rec_cur_loss': '0.0476'}
+valid_loss: 37.066305356147964 {'epoch': 28, 'rec_avg_loss': '0.0721', 'rec_cur_loss': '0.0303'}
+valid_loss: 36.785437217125526 valid_loss: 20.37597412125677 Finetune_sample_remaining-Sepsis-50 
+[20.37597412125677]

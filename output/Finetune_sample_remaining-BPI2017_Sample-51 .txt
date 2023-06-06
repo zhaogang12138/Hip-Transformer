@@ -1,0 +1,21 @@
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2017_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=51, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2017_Sample.txt', data_name='BPI2017_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2017_Sample-51 .txt', log_freq=1, lr=0.01, mask_id=28, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=518824, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2017_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '86380.0757', 'rec_cur_loss': '104234.1719'}
+valid_loss: 61248.78876295758 {'epoch': 1, 'rec_avg_loss': '86120.4337', 'rec_cur_loss': '86102.9531'}
+valid_loss: 61246.15049318326 {'epoch': 2, 'rec_avg_loss': '86408.7141', 'rec_cur_loss': '75296.7188'}
+valid_loss: 61248.57259950411 {'epoch': 3, 'rec_avg_loss': '86175.8387', 'rec_cur_loss': '104103.8359'}
+valid_loss: 61250.119725704084 {'epoch': 4, 'rec_avg_loss': '86525.7710', 'rec_cur_loss': '87271.5234'}
+valid_loss: 61246.06589119969 {'epoch': 5, 'rec_avg_loss': '86340.2036', 'rec_cur_loss': '117400.6172'}
+valid_loss: 61248.335942469785 {'epoch': 6, 'rec_avg_loss': '86566.6191', 'rec_cur_loss': '76019.5156'}
+valid_loss: 61249.509909748725 {'epoch': 7, 'rec_avg_loss': '86410.7738', 'rec_cur_loss': '67988.7812'}
+valid_loss: 61241.78568259528 {'epoch': 8, 'rec_avg_loss': '86296.1492', 'rec_cur_loss': '80795.0312'}
+valid_loss: 61248.5302750188 {'epoch': 9, 'rec_avg_loss': '86273.1313', 'rec_cur_loss': '125391.4219'}
+valid_loss: 61248.623814932485 {'epoch': 10, 'rec_avg_loss': '86397.3081', 'rec_cur_loss': '111748.0859'}
+valid_loss: 61249.293241636304 {'epoch': 11, 'rec_avg_loss': '86335.3765', 'rec_cur_loss': '133034.2500'}
+valid_loss: 61247.74082894185 {'epoch': 12, 'rec_avg_loss': '86523.9380', 'rec_cur_loss': '118462.5859'}
+valid_loss: 61245.86833416464 {'epoch': 13, 'rec_avg_loss': '86310.8402', 'rec_cur_loss': '89611.5547'}
+valid_loss: 61252.305610524374 {'epoch': 14, 'rec_avg_loss': '86382.0169', 'rec_cur_loss': '85688.9922'}
+valid_loss: 61247.68785466184 {'epoch': 15, 'rec_avg_loss': '86471.2520', 'rec_cur_loss': '82505.0625'}
+valid_loss: 61246.891081316506 {'epoch': 16, 'rec_avg_loss': '86195.3861', 'rec_cur_loss': '40878.5117'}
+valid_loss: 61247.07602955847 {'epoch': 17, 'rec_avg_loss': '86500.6526', 'rec_cur_loss': '93190.2109'}
+valid_loss: 61246.22615452594 valid_loss: 60951.53490143563 Finetune_sample_remaining-BPI2017_Sample-51 
+[60951.53490143563]

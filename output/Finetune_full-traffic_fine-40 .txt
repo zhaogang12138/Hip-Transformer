@@ -1,0 +1,35 @@
+Namespace(activity_size=15, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/traffic_fine_attributes.txt', attribute_size=180, batch_size=12, ckp=40, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/traffic_fine.txt', data_name='traffic_fine', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/ Finetune_full-traffic_fine-40 .txt', log_freq=1, lr=0.01, mask_id=14, max_seq_length=10, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=150370, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.5828', 'rec_cur_loss': '0.0780'}
+valid_loss: 0.49139549774664076 accuracies: 0.8542830540037243 fscores: 0.817230074219121 precisions: 0.798330613070238 recalls: 0.8542830540037243
+{'epoch': 1, 'rec_avg_loss': '0.5324', 'rec_cur_loss': '0.0696'}
+valid_loss: 0.4590221299966002 accuracies: 0.8546155892524608 fscores: 0.81750690598056 precisions: 0.7984697908281307 recalls: 0.8546155892524608
+{'epoch': 2, 'rec_avg_loss': '0.5172', 'rec_cur_loss': '0.0756'}
+valid_loss: 0.4491113686171514 accuracies: 0.8549481245011972 fscores: 0.8180945910378707 precisions: 0.799595571398245 recalls: 0.8549481245011972
+{'epoch': 3, 'rec_avg_loss': '0.5133', 'rec_cur_loss': '0.0815'}
+valid_loss: 0.4587005564537128 accuracies: 0.8550146315509444 fscores: 0.8182504503499906 precisions: 0.7999015302187689 recalls: 0.8550146315509444
+{'epoch': 4, 'rec_avg_loss': '0.5126', 'rec_cur_loss': '0.0884'}
+valid_loss: 0.45132698649087144 accuracies: 0.8555466879489226 fscores: 0.8185715734607527 precisions: 0.8000068330475354 recalls: 0.8555466879489226
+{'epoch': 5, 'rec_avg_loss': '0.5092', 'rec_cur_loss': '0.0908'}
+valid_loss: 0.4296100712117441 accuracies: 0.8555466879489226 fscores: 0.8185397410266856 precisions: 0.7999460266020522 recalls: 0.8555466879489226
+{'epoch': 6, 'rec_avg_loss': '0.5072', 'rec_cur_loss': '0.0927'}
+valid_loss: 0.4333179844402116 accuracies: 0.8555466879489226 fscores: 0.8185281941699203 precisions: 0.7998183436232119 recalls: 0.8555466879489226
+{'epoch': 7, 'rec_avg_loss': '0.5064', 'rec_cur_loss': '0.0833'}
+valid_loss: 0.4198245378738865 accuracies: 0.8554801808991752 fscores: 0.8184561808872597 precisions: 0.799855767034538 recalls: 0.8554801808991752
+{'epoch': 8, 'rec_avg_loss': '0.5049', 'rec_cur_loss': '0.0978'}
+valid_loss: 0.4296487714004155 accuracies: 0.8552806597499334 fscores: 0.8185544489011368 precisions: 0.8001980696064894 recalls: 0.8552806597499334
+{'epoch': 9, 'rec_avg_loss': '0.5045', 'rec_cur_loss': '0.1003'}
+valid_loss: 0.4275181366447344 accuracies: 0.855147645650439 fscores: 0.818020575681045 precisions: 0.7992316972215217 recalls: 0.855147645650439
+{'epoch': 10, 'rec_avg_loss': '0.5047', 'rec_cur_loss': '0.1129'}
+valid_loss: 0.40137875573345405 accuracies: 0.855413673849428 fscores: 0.8185573881952881 precisions: 0.8000198729398649 recalls: 0.855413673849428
+{'epoch': 11, 'rec_avg_loss': '0.5040', 'rec_cur_loss': '0.0998'}
+valid_loss: 0.40404512088653666 accuracies: 0.855147645650439 fscores: 0.8184087667921668 precisions: 0.8000590094115633 recalls: 0.855147645650439
+{'epoch': 12, 'rec_avg_loss': '0.5034', 'rec_cur_loss': '0.0911'}
+valid_loss: 0.3994860030704751 accuracies: 0.8552141527001862 fscores: 0.8183359288425859 precisions: 0.7998729240299471 recalls: 0.8552141527001862
+{'epoch': 13, 'rec_avg_loss': '0.5034', 'rec_cur_loss': '0.1049'}
+valid_loss: 0.4017564323801378 accuracies: 0.8555466879489226 fscores: 0.8186165959298983 precisions: 0.800114196827086 recalls: 0.8555466879489226
+{'epoch': 14, 'rec_avg_loss': '0.5028', 'rec_cur_loss': '0.0963'}
+valid_loss: 0.3963572089184976 accuracies: 0.855147645650439 fscores: 0.818211316095836 precisions: 0.7995611974263211 recalls: 0.855147645650439
+ Finetune_full-traffic_fine-40 
+None
+Namespace(activity_size=15, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/traffic_fine_attributes.txt', attribute_size=180, batch_size=12, ckp=40, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/traffic_fine.txt', data_name='traffic_fine', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-traffic_fine-40 .txt', log_freq=1, lr=0.01, mask_id=14, max_seq_length=13, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=150370, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=15, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/traffic_fine_attributes.txt', attribute_size=180, batch_size=12, ckp=40, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/traffic_fine.txt', data_name='traffic_fine', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-traffic_fine-40 .txt', log_freq=1, lr=0.01, mask_id=14, max_seq_length=13, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=150370, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)

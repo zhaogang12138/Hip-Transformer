@@ -1,0 +1,362 @@
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '1.5570', 'rec_cur_loss': '1.4198'}
+valid_loss: 1.5291999261156262 accuracies: 0.29676258992805754 fscores: 0.13913104810269433 precisions: 0.09167665867306156 recalls: 0.29676258992805754
+{'epoch': 1, 'rec_avg_loss': '1.5051', 'rec_cur_loss': '1.4071'}
+valid_loss: 1.506343049968747 accuracies: 0.29676258992805754 fscores: 0.13913104810269433 precisions: 0.09167665867306156 recalls: 0.29676258992805754
+{'epoch': 2, 'rec_avg_loss': '1.4760', 'rec_cur_loss': '1.3919'}
+valid_loss: 1.4977605068426338 accuracies: 0.2979616306954437 fscores: 0.14062384223196753 precisions: 0.09287569944044764 recalls: 0.2979616306954437
+{'epoch': 3, 'rec_avg_loss': '1.4895', 'rec_cur_loss': '1.3699'}
+valid_loss: 1.4827464064248175 accuracies: 0.2979616306954437 fscores: 0.14062384223196753 precisions: 0.09287569944044764 recalls: 0.2979616306954437
+{'epoch': 4, 'rec_avg_loss': '1.4853', 'rec_cur_loss': '1.3649'}
+valid_loss: 1.475502731131135 accuracies: 0.2979616306954437 fscores: 0.14062384223196753 precisions: 0.09287569944044764 recalls: 0.2979616306954437
+{'epoch': 5, 'rec_avg_loss': '1.4785', 'rec_cur_loss': '1.3502'}
+valid_loss: 1.4698299401098018 accuracies: 0.2979616306954437 fscores: 0.14062384223196753 precisions: 0.09287569944044764 recalls: 0.2979616306954437
+{'epoch': 6, 'rec_avg_loss': '1.4762', 'rec_cur_loss': '1.3563'}
+valid_loss: 1.429399694470193 accuracies: 0.5551558752997602 fscores: 0.43809521480384783 precisions: 0.38571285828480073 recalls: 0.5551558752997602
+{'epoch': 7, 'rec_avg_loss': '1.3822', 'rec_cur_loss': '0.8651'}
+valid_loss: 0.8936469880797022 accuracies: 0.7841726618705036 fscores: 0.741462544250314 precisions: 0.7287722203189828 recalls: 0.7841726618705036
+{'epoch': 8, 'rec_avg_loss': '1.1044', 'rec_cur_loss': '0.7490'}
+valid_loss: 0.7151917219161987 accuracies: 0.7739808153477218 fscores: 0.7273714361843859 precisions: 0.7074990007993605 recalls: 0.7739808153477218
+{'epoch': 9, 'rec_avg_loss': '1.0222', 'rec_cur_loss': '0.6925'}
+valid_loss: 0.6932304738451252 accuracies: 0.7775779376498801 fscores: 0.7353469605268166 precisions: 0.723936089223859 recalls: 0.7775779376498801
+{'epoch': 10, 'rec_avg_loss': '0.9419', 'rec_cur_loss': '0.8263'}
+valid_loss: 0.6878628394157766 accuracies: 0.7631894484412469 fscores: 0.7178290700772714 precisions: 0.6999907217083476 recalls: 0.7631894484412469
+{'epoch': 11, 'rec_avg_loss': '0.9206', 'rec_cur_loss': '0.5232'}
+valid_loss: 0.6893619088817844 accuracies: 0.7727817745803358 fscores: 0.7262892716130126 precisions: 0.7066118533744433 recalls: 0.7727817745803358
+{'epoch': 12, 'rec_avg_loss': '0.8818', 'rec_cur_loss': '0.4214'}
+valid_loss: 0.6907150361606543 accuracies: 0.7727817745803357 fscores: 0.7262255130960168 precisions: 0.7063549160671463 recalls: 0.7727817745803357
+{'epoch': 13, 'rec_avg_loss': '0.8623', 'rec_cur_loss': '0.3621'}
+valid_loss: 0.6992103452090737 accuracies: 0.788968824940048 fscores: 0.7455771746239371 precisions: 0.7313335046248716 recalls: 0.788968824940048
+{'epoch': 14, 'rec_avg_loss': '0.8133', 'rec_cur_loss': '0.5853'}
+valid_loss: 0.6747170999753389 accuracies: 0.7775779376498801 fscores: 0.7309484014519986 precisions: 0.7105487038940276 recalls: 0.7775779376498801
+{'epoch': 15, 'rec_avg_loss': '0.7760', 'rec_cur_loss': '0.5440'}
+valid_loss: 0.6919469790492984 accuracies: 0.7937649880095924 fscores: 0.7503230748734346 precisions: 0.7363145198127212 recalls: 0.7937649880095924
+{'epoch': 16, 'rec_avg_loss': '0.7613', 'rec_cur_loss': '0.4006'}
+valid_loss: 0.6710629441755281 accuracies: 0.7925659472422063 fscores: 0.7494215882705092 precisions: 0.7385222774161623 recalls: 0.7925659472422063
+{'epoch': 17, 'rec_avg_loss': '0.7402', 'rec_cur_loss': '0.4228'}
+valid_loss: 0.7012882825496386 accuracies: 0.7925659472422064 fscores: 0.749152755717504 precisions: 0.7384337767880934 recalls: 0.7925659472422064
+{'epoch': 18, 'rec_avg_loss': '0.7358', 'rec_cur_loss': '0.3111'}
+valid_loss: 0.6747894599068937 accuracies: 0.7919664268585133 fscores: 0.7482291223298416 precisions: 0.7370812873510716 recalls: 0.7919664268585133
+{'epoch': 19, 'rec_avg_loss': '0.7175', 'rec_cur_loss': '0.3647'}
+valid_loss: 0.6827117143560657 accuracies: 0.7919664268585133 fscores: 0.7482909776075243 precisions: 0.7373310875109437 recalls: 0.7919664268585133
+{'epoch': 20, 'rec_avg_loss': '0.7111', 'rec_cur_loss': '0.3915'}
+valid_loss: 0.6665649898618246 accuracies: 0.7943645083932854 fscores: 0.7507029441381959 precisions: 0.7393642229073883 recalls: 0.7943645083932854
+{'epoch': 21, 'rec_avg_loss': '0.7047', 'rec_cur_loss': '0.4060'}
+valid_loss: 0.6725670518420583 accuracies: 0.7931654676258992 fscores: 0.7495571940715826 precisions: 0.7388762799284382 recalls: 0.7931654676258992
+{'epoch': 22, 'rec_avg_loss': '0.7074', 'rec_cur_loss': '0.4101'}
+valid_loss: 0.6709245510881753 accuracies: 0.7931654676258992 fscores: 0.7495571940715826 precisions: 0.7388762799284382 recalls: 0.7931654676258992
+{'epoch': 23, 'rec_avg_loss': '0.7004', 'rec_cur_loss': '0.4407'}
+valid_loss: 0.6663515575283723 accuracies: 0.7931654676258992 fscores: 0.7495571940715826 precisions: 0.7388762799284382 recalls: 0.7931654676258992
+{'epoch': 24, 'rec_avg_loss': '0.6968', 'rec_cur_loss': '0.3310'}
+valid_loss: 0.6767140537929192 accuracies: 0.7793764988009593 fscores: 0.7330535571542766 precisions: 0.7145319458718739 recalls: 0.7793764988009593
+{'epoch': 25, 'rec_avg_loss': '0.6956', 'rec_cur_loss': '0.4717'}
+valid_loss: 0.6683408364975195 accuracies: 0.7799760191846523 fscores: 0.7335365041300292 precisions: 0.7150301187621331 recalls: 0.7799760191846523
+{'epoch': 26, 'rec_avg_loss': '0.6883', 'rec_cur_loss': '0.3803'}
+valid_loss: 0.6706926484974168 accuracies: 0.7793764988009592 fscores: 0.7329230987504368 precisions: 0.7143492348977961 recalls: 0.7793764988009592
+{'epoch': 27, 'rec_avg_loss': '0.6900', 'rec_cur_loss': '0.3350'}
+valid_loss: 0.6522045077608644 accuracies: 0.7937649880095924 fscores: 0.7501129399510694 precisions: 0.7387946785428801 recalls: 0.7937649880095924
+{'epoch': 28, 'rec_avg_loss': '0.6891', 'rec_cur_loss': '0.4235'}
+valid_loss: 0.6491732674536945 accuracies: 0.7931654676258992 fscores: 0.7495000968921832 precisions: 0.7387863518708843 recalls: 0.7931654676258992
+{'epoch': 29, 'rec_avg_loss': '0.6865', 'rec_cur_loss': '0.3496'}
+valid_loss: 0.6414985436972954 accuracies: 0.7931654676258992 fscores: 0.7495000968921832 precisions: 0.7387863518708843 recalls: 0.7931654676258992
+{'epoch': 30, 'rec_avg_loss': '0.6851', 'rec_cur_loss': '0.3698'}
+valid_loss: 0.6450581144300296 accuracies: 0.7931654676258992 fscores: 0.7495000968921832 precisions: 0.7387863518708843 recalls: 0.7931654676258992
+Finetune_full-helpdesk-35 
+None
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '1.5570', 'rec_cur_loss': '1.4198'}
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+valid_loss: 411.60678912924345 accuracies: 0.05335731414868105 fscores: 0.05203627973412146 precisions: 0.06860935494029019 recalls: 0.05335731414868105
+Finetune_full-helpdesk-35 
+[411.60678912924345]
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '141.1975', 'rec_cur_loss': '38.4723'}
+valid_loss: 22.860537724529237 accuracies: 0.049160671462829736 fscores: 0.04834788512846067 precisions: 0.06901859464809104 recalls: 0.049160671462829736
+{'epoch': 1, 'rec_avg_loss': '93.3722', 'rec_cur_loss': '117.0286'}
+valid_loss: 30.95960949479247 accuracies: 0.04796163069544364 fscores: 0.046918589004919936 precisions: 0.06575324156259407 recalls: 0.04796163069544364
+{'epoch': 2, 'rec_avg_loss': '87.1752', 'rec_cur_loss': '74.9879'}
+valid_loss: 20.816125835446144 accuracies: 0.05095923261390887 fscores: 0.05510816122326914 precisions: 0.0776174298656313 recalls: 0.05095923261390887
+{'epoch': 3, 'rec_avg_loss': '102.3962', 'rec_cur_loss': '82.3371'}
+valid_loss: 54.37345956212325 accuracies: 0.05395683453237409 fscores: 0.05371957844979428 precisions: 0.0688870332305584 recalls: 0.05395683453237409
+{'epoch': 4, 'rec_avg_loss': '93.0750', 'rec_cur_loss': '54.2659'}
+valid_loss: 50.54728744698943 accuracies: 0.036570743405275774 fscores: 0.03271405852341104 precisions: 0.045169102812987715 recalls: 0.036570743405275774
+{'epoch': 5, 'rec_avg_loss': '57.8959', 'rec_cur_loss': '32.4204'}
+valid_loss: 25.20139603649112 accuracies: 0.04556354916067146 fscores: 0.04539451688732265 precisions: 0.06406041833200107 recalls: 0.04556354916067146
+{'epoch': 6, 'rec_avg_loss': '50.8234', 'rec_cur_loss': '28.4402'}
+valid_loss: 21.282335343120767 accuracies: 0.06654676258992806 fscores: 0.06431771000116325 precisions: 0.08638816219751472 recalls: 0.06654676258992806
+{'epoch': 7, 'rec_avg_loss': '39.5660', 'rec_cur_loss': '25.9642'}
+valid_loss: 29.65147503502935 accuracies: 0.05155875299760192 fscores: 0.045447854170875754 precisions: 0.06089639111221845 recalls: 0.05155875299760192
+{'epoch': 8, 'rec_avg_loss': '28.8915', 'rec_cur_loss': '29.3870'}
+valid_loss: 12.200852689125554 accuracies: 0.052757793764988015 fscores: 0.05177607830485528 precisions: 0.0677303395378935 recalls: 0.052757793764988015
+{'epoch': 9, 'rec_avg_loss': '26.4184', 'rec_cur_loss': '25.4733'}
+valid_loss: 11.69963219697527 accuracies: 0.05635491606714627 fscores: 0.052381983856803996 precisions: 0.07155420685096944 recalls: 0.05635491606714627
+{'epoch': 10, 'rec_avg_loss': '19.0005', 'rec_cur_loss': '23.4181'}
+valid_loss: 14.117327419116343 accuracies: 0.044964028776978415 fscores: 0.04447127612595239 precisions: 0.061473526806260614 recalls: 0.044964028776978415
+{'epoch': 11, 'rec_avg_loss': '17.2029', 'rec_cur_loss': '9.0865'}
+valid_loss: 10.589921657987636 accuracies: 0.03836930455635491 fscores: 0.0368361987067023 precisions: 0.049258558521148445 recalls: 0.03836930455635491
+{'epoch': 12, 'rec_avg_loss': '14.1616', 'rec_cur_loss': '13.1539'}
+valid_loss: 6.559990531249012 accuracies: 0.05755395683453238 fscores: 0.0597318681851056 precisions: 0.08080250085645768 recalls: 0.05755395683453238
+{'epoch': 13, 'rec_avg_loss': '12.7611', 'rec_cur_loss': '17.8876'}
+valid_loss: 10.383774009539927 accuracies: 0.050359712230215826 fscores: 0.040272197826154654 precisions: 0.04871544322983172 recalls: 0.050359712230215826
+{'epoch': 14, 'rec_avg_loss': '11.4429', 'rec_cur_loss': '8.0027'}
+valid_loss: 9.355945415634045 accuracies: 0.042565947242206234 fscores: 0.035014169816328086 precisions: 0.04215610195826023 recalls: 0.042565947242206234
+{'epoch': 15, 'rec_avg_loss': '9.1580', 'rec_cur_loss': '14.7253'}
+valid_loss: 8.028361850505252 accuracies: 0.050359712230215826 fscores: 0.043936525771058145 precisions: 0.05169293136919036 recalls: 0.050359712230215826
+{'epoch': 16, 'rec_avg_loss': '8.4750', 'rec_cur_loss': '6.3134'}
+valid_loss: 5.644990859271811 accuracies: 0.048561151079136694 fscores: 0.04771546066510095 precisions: 0.06358309456331039 recalls: 0.048561151079136694
+Finetune_full-helpdesk-35 
+None
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '138.3620', 'rec_cur_loss': '157.5606'}
+valid_loss: 91.23428407847453 accuracies: 0.0605515587529976 fscores: 0.05019207411293742 precisions: 0.06014796387997826 recalls: 0.0605515587529976
+{'epoch': 1, 'rec_avg_loss': '123.8404', 'rec_cur_loss': '148.4937'}
+valid_loss: 55.72827638310494 accuracies: 0.06954436450839328 fscores: 0.059290416484661095 precisions: 0.0727551076022299 recalls: 0.06954436450839328
+{'epoch': 2, 'rec_avg_loss': '106.2417', 'rec_cur_loss': '127.6549'}
+valid_loss: 44.014251901091434 accuracies: 0.040767386091127095 fscores: 0.03773923917808811 precisions: 0.047799617448898025 recalls: 0.040767386091127095
+{'epoch': 3, 'rec_avg_loss': '70.3171', 'rec_cur_loss': '71.4563'}
+valid_loss: 19.868039398742237 accuracies: 0.05515587529976019 fscores: 0.05333195315209703 precisions: 0.07553695139126793 recalls: 0.05515587529976019
+{'epoch': 4, 'rec_avg_loss': '52.4628', 'rec_cur_loss': '45.6066'}
+valid_loss: 21.390927517156808 accuracies: 0.048561151079136694 fscores: 0.03907162648169842 precisions: 0.051514394544970074 recalls: 0.048561151079136694
+{'epoch': 5, 'rec_avg_loss': '44.1055', 'rec_cur_loss': '15.0121'}
+valid_loss: 14.134587648103563 accuracies: 0.04916067146282973 fscores: 0.04979388783345619 precisions: 0.06934763877209922 recalls: 0.04916067146282973
+{'epoch': 6, 'rec_avg_loss': '36.1999', 'rec_cur_loss': '34.4641'}
+valid_loss: 14.067275328601864 accuracies: 0.046762589928057555 fscores: 0.052549864870008754 precisions: 0.08464038293174983 recalls: 0.046762589928057555
+{'epoch': 7, 'rec_avg_loss': '27.9599', 'rec_cur_loss': '21.7183'}
+valid_loss: 17.247714176452416 accuracies: 0.050359712230215826 fscores: 0.047785251652158134 precisions: 0.06403615203075634 recalls: 0.050359712230215826
+{'epoch': 8, 'rec_avg_loss': '28.1636', 'rec_cur_loss': '40.5914'}
+valid_loss: 11.932849765681535 accuracies: 0.040167865707434046 fscores: 0.04075778338368266 precisions: 0.05883816756118914 recalls: 0.040167865707434046
+{'epoch': 9, 'rec_avg_loss': '22.8546', 'rec_cur_loss': '27.9615'}
+valid_loss: 12.457156370012022 accuracies: 0.05275779376498801 fscores: 0.048341326938449246 precisions: 0.06444059038483499 recalls: 0.05275779376498801
+{'epoch': 10, 'rec_avg_loss': '15.3313', 'rec_cur_loss': '14.5714'}
+valid_loss: 11.82563482257102 accuracies: 0.050359712230215826 fscores: 0.04272219586967788 precisions: 0.05192837072333475 recalls: 0.050359712230215826
+{'epoch': 11, 'rec_avg_loss': '13.8218', 'rec_cur_loss': '8.4234'}
+valid_loss: 5.782998280559513 accuracies: 0.04976019184652278 fscores: 0.04912083320356701 precisions: 0.06954233150276315 recalls: 0.04976019184652278
+Finetune_full-helpdesk-35 
+None
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '138.3620', 'rec_cur_loss': '157.5606'}
+valid_loss: 91.23428407847453 accuracies: 0.0605515587529976 fscores: 0.05019207411293742 precisions: 0.06014796387997826 recalls: 0.0605515587529976
+{'epoch': 1, 'rec_avg_loss': '123.8404', 'rec_cur_loss': '148.4937'}
+valid_loss: 55.72827638310494 accuracies: 0.06954436450839328 fscores: 0.059290416484661095 precisions: 0.0727551076022299 recalls: 0.06954436450839328
+{'epoch': 2, 'rec_avg_loss': '106.2417', 'rec_cur_loss': '127.6549'}
+valid_loss: 44.014251901091434 accuracies: 0.040767386091127095 fscores: 0.03773923917808811 precisions: 0.047799617448898025 recalls: 0.040767386091127095
+{'epoch': 3, 'rec_avg_loss': '70.3171', 'rec_cur_loss': '71.4563'}
+valid_loss: 19.868039398742237 accuracies: 0.05515587529976019 fscores: 0.05333195315209703 precisions: 0.07553695139126793 recalls: 0.05515587529976019
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=15, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '153.5599', 'rec_cur_loss': '89.2682'}
+valid_loss: 83.4482814047834 accuracies: 0.05095923261390887 fscores: 0.05079243631401904 precisions: 0.07314315214495072 recalls: 0.05095923261390887
+{'epoch': 1, 'rec_avg_loss': '98.3069', 'rec_cur_loss': '56.7418'}
+valid_loss: 31.301576291914465 accuracies: 0.048561151079136694 fscores: 0.04613117697650072 precisions: 0.06304999290610802 recalls: 0.048561151079136694
+{'epoch': 2, 'rec_avg_loss': '184.5814', 'rec_cur_loss': '216.4917'}
+valid_loss: 208.20997235414794 accuracies: 0.038968824940047955 fscores: 0.033261632452279935 precisions: 0.04053806738159256 recalls: 0.038968824940047955
+{'epoch': 3, 'rec_avg_loss': '204.5006', 'rec_cur_loss': '123.0606'}
+valid_loss: 41.4794080308873 accuracies: 0.050359712230215826 fscores: 0.04114599096613485 precisions: 0.05143752962997567 recalls: 0.050359712230215826
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '1.4365', 'rec_cur_loss': '0.8307'}
+valid_loss: 0.8699898140893566 accuracies: 0.788369304556355 fscores: 0.7452791879050872 precisions: 0.7329828993947699 recalls: 0.788369304556355
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 1, 'rec_avg_loss': '1.2261', 'rec_cur_loss': '0.7461'}
+valid_loss: 0.7826529467920605 accuracies: 0.7775779376498801 fscores: 0.7303513566103493 precisions: 0.7096180198698184 recalls: 0.7775779376498801
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 2, 'rec_avg_loss': '0.7558', 'rec_cur_loss': '0.3568'}
+valid_loss: 0.7109804157730487 accuracies: 0.7937649880095924 fscores: 0.749868287188431 precisions: 0.7393509002321952 recalls: 0.7937649880095924
+{'epoch': 3, 'rec_avg_loss': '0.7352', 'rec_cur_loss': '0.3947'}
+valid_loss: 0.6638587448451159 accuracies: 0.7943645083932854 fscores: 0.7503897747602783 precisions: 0.7401987933462754 recalls: 0.7943645083932854
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 4, 'rec_avg_loss': '0.7175', 'rec_cur_loss': '0.3614'}
+valid_loss: 0.6809065096455512 accuracies: 0.7949640287769785 fscores: 0.7509512303577052 precisions: 0.7406484336340452 recalls: 0.7949640287769785
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 5, 'rec_avg_loss': '0.6828', 'rec_cur_loss': '0.3911'}
+valid_loss: 0.633847452324929 accuracies: 0.7949640287769785 fscores: 0.7509455206397653 precisions: 0.7405684975828861 recalls: 0.7949640287769785
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 6, 'rec_avg_loss': '0.6980', 'rec_cur_loss': '0.3823'}
+valid_loss: 0.6339513294988399 accuracies: 0.7955635491606715 fscores: 0.7514251369467198 precisions: 0.7409681778386814 recalls: 0.7955635491606715
+{'epoch': 7, 'rec_avg_loss': '0.6680', 'rec_cur_loss': '0.3399'}
+valid_loss: 0.6189950999381731 accuracies: 0.802158273381295 fscores: 0.7610055678401002 precisions: 0.7543574664078261 recalls: 0.802158273381295
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 8, 'rec_avg_loss': '0.6672', 'rec_cur_loss': '0.3849'}
+valid_loss: 0.6179872099444162 accuracies: 0.802158273381295 fscores: 0.7611311816347788 precisions: 0.7546372425868829 recalls: 0.802158273381295
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 9, 'rec_avg_loss': '0.6560', 'rec_cur_loss': '0.3306'}
+valid_loss: 0.6079379741450865 accuracies: 0.802158273381295 fscores: 0.7610055678401002 precisions: 0.7543574664078261 recalls: 0.802158273381295
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 10, 'rec_avg_loss': '0.6449', 'rec_cur_loss': '0.3099'}
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=14, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+valid_loss: 0.6040947539128846 accuracies: 0.802158273381295 fscores: 0.7610055678401002 precisions: 0.7543574664078261 recalls: 0.802158273381295
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=30, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 11, 'rec_avg_loss': '0.6434', 'rec_cur_loss': '0.3357'}
+valid_loss: 0.6029786351773379 accuracies: 0.8015587529976019 fscores: 0.7605316612510857 precisions: 0.7540377222031898 recalls: 0.8015587529976019
+{'epoch': 0, 'rec_avg_loss': '1.5892', 'rec_cur_loss': '1.4199'}
+valid_loss: 1.46711419469161 accuracies: 0.29676258992805754 fscores: 0.13913104810269433 precisions: 0.09167665867306156 recalls: 0.29676258992805754
+{'epoch': 12, 'rec_avg_loss': '0.6416', 'rec_cur_loss': '0.3154'}
+valid_loss: 0.6035072596596299 accuracies: 0.8015587529976019 fscores: 0.7605316612510857 precisions: 0.7540377222031898 recalls: 0.8015587529976019
+{'epoch': 1, 'rec_avg_loss': '1.1889', 'rec_cur_loss': '0.5704'}
+valid_loss: 0.7972114390606503 accuracies: 0.7907673860911272 fscores: 0.7471305639471106 precisions: 0.7348035857028663 recalls: 0.7907673860911272
+{'epoch': 13, 'rec_avg_loss': '0.6380', 'rec_cur_loss': '0.3015'}
+valid_loss: 0.602470938571923 accuracies: 0.8015587529976019 fscores: 0.7605316612510857 precisions: 0.7540377222031898 recalls: 0.8015587529976019
+{'epoch': 2, 'rec_avg_loss': '0.9364', 'rec_cur_loss': '0.5321'}
+valid_loss: 0.7290606558751717 accuracies: 0.776378896882494 fscores: 0.7293056031365384 precisions: 0.7089085874157817 recalls: 0.776378896882494
+{'epoch': 14, 'rec_avg_loss': '0.6391', 'rec_cur_loss': '0.3121'}
+valid_loss: 0.5997796519625959 accuracies: 0.8015587529976019 fscores: 0.7605259515331457 precisions: 0.7539577861520308 recalls: 0.8015587529976019
+{'epoch': 15, 'rec_avg_loss': '0.6350', 'rec_cur_loss': '0.3166'}
+valid_loss: 0.598338392141054 accuracies: 0.802158273381295 fscores: 0.7610055678401002 precisions: 0.7543574664078261 recalls: 0.802158273381295
+{'epoch': 3, 'rec_avg_loss': '1.0326', 'rec_cur_loss': '0.8921'}
+valid_loss: 1.1285646249064438 accuracies: 0.5545563549160671 fscores: 0.4599752066478685 precisions: 0.46448555441361206 recalls: 0.5545563549160671
+{'epoch': 16, 'rec_avg_loss': '0.6332', 'rec_cur_loss': '0.3307'}
+valid_loss: 0.5980350845794884 accuracies: 0.802158273381295 fscores: 0.7610055678401002 precisions: 0.7543574664078261 recalls: 0.802158273381295
+{'epoch': 4, 'rec_avg_loss': '0.8848', 'rec_cur_loss': '0.4071'}
+valid_loss: 1.0304573572796882 accuracies: 0.5575539568345323 fscores: 0.46518091221328633 precisions: 0.4732494956415819 recalls: 0.5575539568345323
+{'epoch': 17, 'rec_avg_loss': '0.6313', 'rec_cur_loss': '0.3097'}
+valid_loss: 0.5976591027683491 accuracies: 0.802158273381295 fscores: 0.7610055678401002 precisions: 0.7543574664078261 recalls: 0.802158273381295
+{'epoch': 5, 'rec_avg_loss': '0.7943', 'rec_cur_loss': '0.5550'}
+valid_loss: 0.6773945624879796 accuracies: 0.7901678657074341 fscores: 0.7464301718798122 precisions: 0.7359386300483424 recalls: 0.7901678657074341
+{'epoch': 6, 'rec_avg_loss': '0.7770', 'rec_cur_loss': '0.3560'}
+valid_loss: 0.6860974812679154 accuracies: 0.7901678657074341 fscores: 0.7464301718798122 precisions: 0.7359386300483424 recalls: 0.7901678657074341
+{'epoch': 7, 'rec_avg_loss': '0.7745', 'rec_cur_loss': '0.3775'}
+valid_loss: 0.7307134832409646 accuracies: 0.7889688249400479 fscores: 0.7452097196701514 precisions: 0.7333107323664877 recalls: 0.7889688249400479
+{'epoch': 8, 'rec_avg_loss': '0.7597', 'rec_cur_loss': '0.3366'}
+valid_loss: 0.7805344591037833 accuracies: 0.7913669064748201 fscores: 0.7474769535021333 precisions: 0.7368678866430665 recalls: 0.7913669064748201
+{'epoch': 9, 'rec_avg_loss': '0.7449', 'rec_cur_loss': '0.3470'}
+valid_loss: 0.6823196368251773 accuracies: 0.7901678657074341 fscores: 0.7465705357791689 precisions: 0.7360285581058962 recalls: 0.7901678657074341
+{'epoch': 10, 'rec_avg_loss': '0.7283', 'rec_cur_loss': '0.3268'}
+valid_loss: 0.7541405200529442 accuracies: 0.7901678657074341 fscores: 0.7465063014523445 precisions: 0.735698821894865 recalls: 0.7901678657074341
+{'epoch': 11, 'rec_avg_loss': '0.7185', 'rec_cur_loss': '0.3987'}
+valid_loss: 0.8372692969634379 accuracies: 0.7901678657074341 fscores: 0.7463254937175801 precisions: 0.7341200848844734 recalls: 0.7901678657074341
+{'epoch': 12, 'rec_avg_loss': '0.7184', 'rec_cur_loss': '0.3876'}
+valid_loss: 0.6836826228838173 accuracies: 0.7937649880095924 fscores: 0.7496251483661555 precisions: 0.7382303680864832 recalls: 0.7937649880095924
+{'epoch': 13, 'rec_avg_loss': '0.7089', 'rec_cur_loss': '0.3110'}
+valid_loss: 0.7359742405388853 accuracies: 0.7949640287769785 fscores: 0.7509455206397653 precisions: 0.7405684975828861 recalls: 0.7949640287769785
+{'epoch': 14, 'rec_avg_loss': '0.7142', 'rec_cur_loss': '0.3453'}
+valid_loss: 0.7389902421038785 accuracies: 0.7925659472422063 fscores: 0.7487354704980604 precisions: 0.7377072151802367 recalls: 0.7925659472422063
+{'epoch': 15, 'rec_avg_loss': '0.7088', 'rec_cur_loss': '0.3707'}
+valid_loss: 0.762660719722295 accuracies: 0.7943645083932854 fscores: 0.7504245088777463 precisions: 0.7400289292375624 recalls: 0.7943645083932854
+{'epoch': 16, 'rec_avg_loss': '0.6999', 'rec_cur_loss': '0.3455'}
+valid_loss: 0.7277240358668265 accuracies: 0.7937649880095924 fscores: 0.7498016738124651 precisions: 0.7388998325149404 recalls: 0.7937649880095924
+{'epoch': 17, 'rec_avg_loss': '0.7058', 'rec_cur_loss': '0.3798'}
+valid_loss: 0.7608248777955556 accuracies: 0.7943645083932854 fscores: 0.7504245088777463 precisions: 0.7400289292375624 recalls: 0.7943645083932854
+{'epoch': 18, 'rec_avg_loss': '0.6994', 'rec_cur_loss': '0.5324'}
+valid_loss: 0.7239616161627735 accuracies: 0.7943645083932854 fscores: 0.7504245088777463 precisions: 0.7400289292375624 recalls: 0.7943645083932854
+{'epoch': 19, 'rec_avg_loss': '0.6915', 'rec_cur_loss': '0.3498'}
+valid_loss: 0.7640219875376859 accuracies: 0.7949640287769785 fscores: 0.7509455206397653 precisions: 0.7405684975828861 recalls: 0.7949640287769785
+{'epoch': 20, 'rec_avg_loss': '0.6867', 'rec_cur_loss': '0.3325'}
+valid_loss: 0.6784526880482118 accuracies: 0.7943645083932854 fscores: 0.7503840650423385 precisions: 0.7396492329945568 recalls: 0.7943645083932854
+{'epoch': 21, 'rec_avg_loss': '0.6906', 'rec_cur_loss': '0.3641'}
+valid_loss: 0.8065222934853259 accuracies: 0.7799760191846522 fscores: 0.736697395330489 precisions: 0.7289306649918159 recalls: 0.7799760191846522
+{'epoch': 22, 'rec_avg_loss': '0.6867', 'rec_cur_loss': '0.3526'}
+valid_loss: 0.8626844947286647 accuracies: 0.7428057553956835 fscores: 0.6979931206549911 precisions: 0.7002136386129192 recalls: 0.7428057553956835
+{'epoch': 23, 'rec_avg_loss': '0.6902', 'rec_cur_loss': '0.3305'}
+valid_loss: 0.780949195297502 accuracies: 0.7949640287769785 fscores: 0.7509455206397653 precisions: 0.7405684975828861 recalls: 0.7949640287769785
+Finetune_full-helpdesk-35 
+None
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=30, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+valid_loss: 0.7592115374349004 accuracies: 0.7835731414868106 fscores: 0.7395698160086649 precisions: 0.7310344581477675 recalls: 0.7835731414868106
+Finetune_full-helpdesk-35 
+[0.7592115374349004]
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=30, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+valid_loss: 0.7592115374349004 accuracies: 0.7835731414868106 fscores: 0.7395698160086649 precisions: 0.7310344581477675 recalls: 0.7835731414868106
+Finetune_full-helpdesk-35 
+[0.7592115374349004]
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=30, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=30, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=30, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=30, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=30, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=30, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=30, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=30, batch_size=12, ckp=35, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-35 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=15, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '1.4317', 'rec_cur_loss': '1.0896'}
+valid_loss: 1.3594202845216654 accuracies: 0.4196642685851319 fscores: 0.3547294432186519 precisions: 0.3461694929770469 recalls: 0.4196642685851319
+{'epoch': 1, 'rec_avg_loss': '1.3755', 'rec_cur_loss': '1.0672'}
+valid_loss: 1.3406243019824406 accuracies: 0.4916067146282974 fscores: 0.43922744920946355 precisions: 0.47153738048522226 recalls: 0.4916067146282974
+{'epoch': 2, 'rec_avg_loss': '1.3522', 'rec_cur_loss': '1.0393'}
+valid_loss: 1.3336510259470493 accuracies: 0.47661870503597115 fscores: 0.38245029683878606 precisions: 0.35932169848536755 recalls: 0.47661870503597115
+{'epoch': 3, 'rec_avg_loss': '1.3627', 'rec_cur_loss': '1.0966'}
+valid_loss: 1.3236153687504555 accuracies: 0.4892086330935252 fscores: 0.3801486316774087 precisions: 0.35046819687107456 recalls: 0.4892086330935252
+{'epoch': 4, 'rec_avg_loss': '1.3533', 'rec_cur_loss': '1.2488'}
+valid_loss: 1.3781448371118779 accuracies: 0.4022781774580336 fscores: 0.29538805851755484 precisions: 0.25629974375477976 recalls: 0.4022781774580336
+{'epoch': 5, 'rec_avg_loss': '1.3554', 'rec_cur_loss': '1.0084'}
+valid_loss: 1.3099094680744967 accuracies: 0.47901678657074337 fscores: 0.37677418172022487 precisions: 0.34512463622175854 recalls: 0.47901678657074337
+{'epoch': 6, 'rec_avg_loss': '1.3382', 'rec_cur_loss': '0.9770'}
+valid_loss: 1.2956230846240366 accuracies: 0.48800959232613916 fscores: 0.43723690045632485 precisions: 0.4576801329499172 recalls: 0.48800959232613916
+{'epoch': 7, 'rec_avg_loss': '1.3242', 'rec_cur_loss': '1.0258'}
+valid_loss: 1.2688091560233412 accuracies: 0.5491606714628297 fscores: 0.4897227206579725 precisions: 0.5171168692751428 recalls: 0.5491606714628297
+{'epoch': 8, 'rec_avg_loss': '1.2737', 'rec_cur_loss': '0.9787'}
+valid_loss: 1.206964195203438 accuracies: 0.6187050359712231 fscores: 0.5731221083739069 precisions: 0.5823591127098321 recalls: 0.6187050359712231
+{'epoch': 9, 'rec_avg_loss': '1.0118', 'rec_cur_loss': '0.8097'}
+valid_loss: 0.7273269504737511 accuracies: 0.7859712230215827 fscores: 0.7422818022638166 precisions: 0.7257722393513761 recalls: 0.7859712230215827
+{'epoch': 10, 'rec_avg_loss': '0.7833', 'rec_cur_loss': '0.5142'}
+valid_loss: 0.6898952504928163 accuracies: 0.7901678657074341 fscores: 0.7450953955450359 precisions: 0.7267164839556925 recalls: 0.7901678657074341
+{'epoch': 11, 'rec_avg_loss': '0.7550', 'rec_cur_loss': '0.4762'}
+valid_loss: 0.6810052179389721 accuracies: 0.7919664268585133 fscores: 0.7479555749339922 precisions: 0.7350422043317727 recalls: 0.7919664268585133
+{'epoch': 12, 'rec_avg_loss': '0.7322', 'rec_cur_loss': '0.3199'}
+valid_loss: 0.6575697498570243 accuracies: 0.7925659472422062 fscores: 0.7467768642229073 precisions: 0.7262639888089529 recalls: 0.7925659472422062
+{'epoch': 13, 'rec_avg_loss': '0.7205', 'rec_cur_loss': '0.3747'}
+valid_loss: 0.6937668364253833 accuracies: 0.7943645083932854 fscores: 0.7485862824891601 precisions: 0.7295891857942218 recalls: 0.7943645083932854
+{'epoch': 14, 'rec_avg_loss': '0.7390', 'rec_cur_loss': '0.3513'}
+valid_loss: 0.6869917984703462 accuracies: 0.7949640287769785 fscores: 0.7506870693921054 precisions: 0.7359826424574626 recalls: 0.7949640287769785
+{'epoch': 15, 'rec_avg_loss': '0.7301', 'rec_cur_loss': '0.3679'}
+valid_loss: 0.7045448948796704 accuracies: 0.7931654676258992 fscores: 0.7481741879223894 precisions: 0.7319230330021697 recalls: 0.7931654676258992
+{'epoch': 16, 'rec_avg_loss': '0.7100', 'rec_cur_loss': '0.3858'}
+valid_loss: 0.6504079076669199 accuracies: 0.7955635491606715 fscores: 0.7516158934324403 precisions: 0.738009592326139 recalls: 0.7955635491606715
+{'epoch': 17, 'rec_avg_loss': '0.6931', 'rec_cur_loss': '0.3858'}
+valid_loss: 0.6530086534271995 accuracies: 0.7931654676258992 fscores: 0.7490796540256971 precisions: 0.7357207091469682 recalls: 0.7931654676258992
+{'epoch': 18, 'rec_avg_loss': '0.6891', 'rec_cur_loss': '0.4070'}
+valid_loss: 0.6424042676850189 accuracies: 0.802158273381295 fscores: 0.7564667313768033 precisions: 0.7373494061893342 recalls: 0.802158273381295
+{'epoch': 19, 'rec_avg_loss': '0.6860', 'rec_cur_loss': '0.3604'}
+valid_loss: 0.6524582284388782 accuracies: 0.8015587529976018 fscores: 0.7559699859160292 precisions: 0.7369497259335388 recalls: 0.8015587529976018
+{'epoch': 20, 'rec_avg_loss': '0.6750', 'rec_cur_loss': '0.3121'}
+valid_loss: 0.6626101005420411 accuracies: 0.7973621103117506 fscores: 0.7520340870161014 precisions: 0.7334939191503939 recalls: 0.7973621103117506
+{'epoch': 21, 'rec_avg_loss': '0.6779', 'rec_cur_loss': '0.3336'}
+valid_loss: 0.6408188160803678 accuracies: 0.7985611510791367 fscores: 0.7530761970510172 precisions: 0.7344467283316204 recalls: 0.7985611510791367
+{'epoch': 22, 'rec_avg_loss': '0.6774', 'rec_cur_loss': '0.3953'}
+valid_loss: 0.6480559338983014 accuracies: 0.7985611510791367 fscores: 0.7532754748582087 precisions: 0.735822056640402 recalls: 0.7985611510791367
+{'epoch': 23, 'rec_avg_loss': '0.6773', 'rec_cur_loss': '0.3221'}
+valid_loss: 0.6832068717951397 accuracies: 0.7967625899280576 fscores: 0.7513716732241913 precisions: 0.733697327852004 recalls: 0.7967625899280576
+{'epoch': 24, 'rec_avg_loss': '0.6836', 'rec_cur_loss': '0.3766'}
+valid_loss: 0.6662134986987217 accuracies: 0.8015587529976019 fscores: 0.7555221623566948 precisions: 0.7365086502226791 recalls: 0.8015587529976019
+{'epoch': 25, 'rec_avg_loss': '0.6893', 'rec_cur_loss': '0.4716'}
+valid_loss: 0.6742939112855376 accuracies: 0.802757793764988 fscores: 0.7569507164830905 precisions: 0.7367234783601689 recalls: 0.802757793764988
+{'epoch': 26, 'rec_avg_loss': '0.6903', 'rec_cur_loss': '0.3430'}
+valid_loss: 0.6754342688502167 accuracies: 0.802158273381295 fscores: 0.7560285105249134 precisions: 0.7360540139317118 recalls: 0.802158273381295
+{'epoch': 27, 'rec_avg_loss': '0.6863', 'rec_cur_loss': '0.4944'}
+valid_loss: 0.6775109729320883 accuracies: 0.8003597122302158 fscores: 0.7544450154162383 precisions: 0.7351347493433824 recalls: 0.8003597122302158
+{'epoch': 28, 'rec_avg_loss': '0.6856', 'rec_cur_loss': '0.4396'}
+valid_loss: 0.695626570380849 accuracies: 0.7991606714628297 fscores: 0.7536623082486392 precisions: 0.7362417209089871 recalls: 0.7991606714628297
+{'epoch': 29, 'rec_avg_loss': '0.6787', 'rec_cur_loss': '0.3769'}
+valid_loss: 0.6679523171280786 accuracies: 0.8003597122302158 fscores: 0.7541304186088359 precisions: 0.7351697213657645 recalls: 0.8003597122302158
+{'epoch': 30, 'rec_avg_loss': '0.6769', 'rec_cur_loss': '0.4562'}
+valid_loss: 0.6665611392516884 accuracies: 0.8015587529976019 fscores: 0.7556696634034763 precisions: 0.7363873187164554 recalls: 0.8015587529976019
+{'epoch': 31, 'rec_avg_loss': '0.6784', 'rec_cur_loss': '0.3016'}
+valid_loss: 0.6662601747101159 accuracies: 0.8009592326139089 fscores: 0.7552809267737325 precisions: 0.7365272068059837 recalls: 0.8009592326139089
+{'epoch': 32, 'rec_avg_loss': '0.6812', 'rec_cur_loss': '0.3908'}
+valid_loss: 0.6595116504233518 accuracies: 0.8003597122302158 fscores: 0.7543183634910254 precisions: 0.7354095295192418 recalls: 0.8003597122302158
+{'epoch': 33, 'rec_avg_loss': '0.6822', 'rec_cur_loss': '0.3517'}
+valid_loss: 0.6709756813675379 accuracies: 0.7997601918465227 fscores: 0.7537383513102938 precisions: 0.7346401450268357 recalls: 0.7997601918465227
+{'epoch': 34, 'rec_avg_loss': '0.6774', 'rec_cur_loss': '0.4075'}
+valid_loss: 0.6590857403955871 accuracies: 0.7991606714628297 fscores: 0.7532967997896055 precisions: 0.7347100890715998 recalls: 0.7991606714628297
+{'epoch': 35, 'rec_avg_loss': '0.6777', 'rec_cur_loss': '0.4213'}
+valid_loss: 0.663203004452822 accuracies: 0.7997601918465227 fscores: 0.7538320858464743 precisions: 0.735129753340185 recalls: 0.7997601918465227
+Finetune_full-helpdesk-35 
+None

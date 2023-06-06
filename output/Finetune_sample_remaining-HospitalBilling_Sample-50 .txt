@@ -1,0 +1,59 @@
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/HospitalBilling_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/HospitalBilling_Sample.txt', data_name='HospitalBilling_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-HospitalBilling_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=20, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=13539, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/HospitalBilling_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '2798.8970', 'rec_cur_loss': '2412.3835'}
+valid_loss: 1509.6606684412275 {'epoch': 1, 'rec_avg_loss': '2835.4551', 'rec_cur_loss': '234.3185'}
+valid_loss: 1503.758043561663 {'epoch': 2, 'rec_avg_loss': '2833.6099', 'rec_cur_loss': '17914.1680'}
+valid_loss: 1521.2009382247925 {'epoch': 3, 'rec_avg_loss': '2832.0572', 'rec_cur_loss': '350.7983'}
+valid_loss: 1495.0375849860054 {'epoch': 4, 'rec_avg_loss': '2834.4601', 'rec_cur_loss': '615.9553'}
+valid_loss: 1485.2278577259608 {'epoch': 5, 'rec_avg_loss': '2827.6060', 'rec_cur_loss': '4726.5479'}
+valid_loss: 1472.029200417655 {'epoch': 6, 'rec_avg_loss': '2821.5032', 'rec_cur_loss': '411.3161'}
+valid_loss: 1464.9504848207746 {'epoch': 7, 'rec_avg_loss': '2703.8785', 'rec_cur_loss': '2361.6792'}
+valid_loss: 1106.7244757584162 {'epoch': 8, 'rec_avg_loss': '2622.2133', 'rec_cur_loss': '2386.4883'}
+valid_loss: 1131.129539012909 {'epoch': 9, 'rec_avg_loss': '2603.6200', 'rec_cur_loss': '1255.0957'}
+valid_loss: 1192.3863464764186 {'epoch': 10, 'rec_avg_loss': '2541.2362', 'rec_cur_loss': '5957.6270'}
+valid_loss: 1155.0454263346535 {'epoch': 11, 'rec_avg_loss': '2528.8159', 'rec_cur_loss': '359.8964'}
+valid_loss: 1256.3402847221919 {'epoch': 12, 'rec_avg_loss': '2477.0278', 'rec_cur_loss': '279.4325'}
+valid_loss: 1349.0694876738958 {'epoch': 13, 'rec_avg_loss': '2461.1250', 'rec_cur_loss': '2577.8516'}
+valid_loss: 1388.6664534636907 {'epoch': 14, 'rec_avg_loss': '2418.3083', 'rec_cur_loss': '615.5188'}
+valid_loss: 1461.4134590285164 {'epoch': 15, 'rec_avg_loss': '2401.8228', 'rec_cur_loss': '426.7794'}
+valid_loss: 1448.9294185638428 {'epoch': 16, 'rec_avg_loss': '2411.6889', 'rec_cur_loss': '71.6300'}
+valid_loss: 1474.3296147244316 {'epoch': 17, 'rec_avg_loss': '2401.8785', 'rec_cur_loss': '10140.6895'}
+valid_loss: 1512.7754701205663 valid_loss: 747.6931369304657 Finetune_sample_remaining-HospitalBilling_Sample-50 
+[747.6931369304657]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/HospitalBilling_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/HospitalBilling_Sample.txt', data_name='HospitalBilling_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-HospitalBilling_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=20, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=13539, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/HospitalBilling_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '2820.9820', 'rec_cur_loss': '2398.2314'}
+valid_loss: 1505.6213156155177 {'epoch': 1, 'rec_avg_loss': '2851.8300', 'rec_cur_loss': '200.3506'}
+valid_loss: 1520.1365339415413 {'epoch': 2, 'rec_avg_loss': '2840.9541', 'rec_cur_loss': '17798.1953'}
+valid_loss: 1509.0763194220406 {'epoch': 3, 'rec_avg_loss': '2841.3481', 'rec_cur_loss': '305.3710'}
+valid_loss: 1488.9825484412056 {'epoch': 4, 'rec_avg_loss': '2823.6957', 'rec_cur_loss': '566.7761'}
+valid_loss: 1216.6422640255519 {'epoch': 5, 'rec_avg_loss': '2673.9874', 'rec_cur_loss': '4640.7310'}
+valid_loss: 1315.3201629093714 {'epoch': 6, 'rec_avg_loss': '2638.5200', 'rec_cur_loss': '300.3610'}
+valid_loss: 1400.6349834033422 {'epoch': 7, 'rec_avg_loss': '2718.9783', 'rec_cur_loss': '2356.5840'}
+valid_loss: 1326.6644945144653 {'epoch': 8, 'rec_avg_loss': '2757.1249', 'rec_cur_loss': '2264.0522'}
+valid_loss: 1260.556994846889 {'epoch': 9, 'rec_avg_loss': '2751.4263', 'rec_cur_loss': '1583.8376'}
+valid_loss: 1281.703558921814 {'epoch': 10, 'rec_avg_loss': '2672.9306', 'rec_cur_loss': '5557.0015'}
+valid_loss: 1230.541046006339 {'epoch': 11, 'rec_avg_loss': '2652.4811', 'rec_cur_loss': '506.8933'}
+valid_loss: 1287.9792744772774 {'epoch': 12, 'rec_avg_loss': '2649.2705', 'rec_cur_loss': '321.9609'}
+valid_loss: 1281.8188014030457 {'epoch': 13, 'rec_avg_loss': '2647.4150', 'rec_cur_loss': '2182.6650'}
+valid_loss: 1252.1195750236511 {'epoch': 14, 'rec_avg_loss': '2593.7247', 'rec_cur_loss': '614.0339'}
+valid_loss: 1469.217550413949 valid_loss: 821.6019693783352 Finetune_sample_remaining-HospitalBilling_Sample-50 
+[821.6019693783352]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/HospitalBilling_Sample_attributes.txt', attribute_size=200, batch_size=64, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/HospitalBilling_Sample.txt', data_name='HospitalBilling_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-HospitalBilling_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=20, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=13539, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/HospitalBilling_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '16.9287', 'rec_cur_loss': '51.0918'}
+valid_loss: 16.408150763738725 {'epoch': 1, 'rec_avg_loss': '16.8784', 'rec_cur_loss': '19.5757'}
+valid_loss: 16.362459409804572 {'epoch': 2, 'rec_avg_loss': '16.8488', 'rec_cur_loss': '27.7292'}
+valid_loss: 16.42515062150501 {'epoch': 3, 'rec_avg_loss': '16.8836', 'rec_cur_loss': '17.4963'}
+valid_loss: 16.58100037347703 {'epoch': 4, 'rec_avg_loss': '16.8420', 'rec_cur_loss': '27.7174'}
+valid_loss: 16.37997881571452 {'epoch': 5, 'rec_avg_loss': '16.8958', 'rec_cur_loss': '14.6793'}
+valid_loss: 16.574550083705358 {'epoch': 6, 'rec_avg_loss': '16.8910', 'rec_cur_loss': '15.6598'}
+valid_loss: 16.185160455249605 {'epoch': 7, 'rec_avg_loss': '16.8905', 'rec_cur_loss': '21.8110'}
+valid_loss: 16.536360967726935 {'epoch': 8, 'rec_avg_loss': '16.8683', 'rec_cur_loss': '19.4142'}
+valid_loss: 16.367513361431303 {'epoch': 9, 'rec_avg_loss': '16.8908', 'rec_cur_loss': '7.1839'}
+valid_loss: 16.522350311279297 {'epoch': 10, 'rec_avg_loss': '16.8944', 'rec_cur_loss': '7.4111'}
+valid_loss: 16.541097413925897 {'epoch': 11, 'rec_avg_loss': '16.8959', 'rec_cur_loss': '18.0804'}
+valid_loss: 16.47108307338896 {'epoch': 12, 'rec_avg_loss': '16.9031', 'rec_cur_loss': '7.4132'}
+valid_loss: 16.379616442180815 {'epoch': 13, 'rec_avg_loss': '16.8851', 'rec_cur_loss': '20.8934'}
+valid_loss: 16.581934997013636 {'epoch': 14, 'rec_avg_loss': '16.8948', 'rec_cur_loss': '9.6758'}
+valid_loss: 16.397074336097354 {'epoch': 15, 'rec_avg_loss': '16.8862', 'rec_cur_loss': '14.2530'}
+valid_loss: 16.303538640340168 {'epoch': 16, 'rec_avg_loss': '16.8585', 'rec_cur_loss': '13.0519'}
+valid_loss: 16.328036785125732 valid_loss: 14.28527393795195 Finetune_sample_remaining-HospitalBilling_Sample-50 
+[14.28527393795195]

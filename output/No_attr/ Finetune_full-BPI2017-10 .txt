@@ -1,0 +1,3 @@
+Namespace(activity_size=29, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2017_attributes.txt', attribute_size=726, batch_size=64, ckp=10, cuda_condition=False, data_dir='./data/', data_file='./data/BPI2017.txt', data_name='BPI2017', do_eval=True, epochs=200, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=0.02, log_file='output/ Finetune_full-BPI2017-10 .txt', log_freq=1, lr=0.0001, mask_id=28, max_seq_length=20, model_name='Finetune_full', no_cuda=False, num_attention_heads=2, num_cases=31509, num_classes=30, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+ Finetune_full-BPI2017-10 
+0.07240201228735399

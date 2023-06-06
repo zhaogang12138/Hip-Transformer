@@ -1,0 +1,28 @@
+Namespace(activity_size=100, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2015_3_Sample_attributes.txt', attribute_size=100, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2015_3_Sample.txt', data_name='BPI2015_3_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2015_3_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=42, max_seq_length=100, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=34214, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2015_3_Sample_time_attributes.txt', time_scaler=MinMaxScaler(), weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0141'}
+valid_loss: 10.534530211331552 {'epoch': 1, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0101'}
+valid_loss: 10.5345301720134 {'epoch': 2, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0048'}
+valid_loss: 10.53465034836217 {'epoch': 3, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0132'}
+valid_loss: 10.534530213004665 {'epoch': 4, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0091'}
+valid_loss: 10.534530223879898 {'epoch': 5, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0073'}
+valid_loss: 10.535527627509937 {'epoch': 6, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0071'}
+valid_loss: 10.534822598674841 {'epoch': 7, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0074'}
+valid_loss: 10.535235240166648 {'epoch': 8, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0124'}
+valid_loss: 10.534650377641645 {'epoch': 9, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0033'}
+valid_loss: 10.534530191254197 {'epoch': 10, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0265'}
+valid_loss: 10.53523516487657 {'epoch': 11, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0255'}
+valid_loss: 10.534530145243595 {'epoch': 12, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0121'}
+valid_loss: 10.53453015528227 {'epoch': 13, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0235'}
+valid_loss: 10.534822607876961 {'epoch': 14, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0105'}
+valid_loss: 10.506872637230053 {'epoch': 15, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0067'}
+valid_loss: 10.534822528404103 {'epoch': 16, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0202'}
+valid_loss: 10.535819984737195 {'epoch': 17, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0397'}
+valid_loss: 10.534822607040406 {'epoch': 18, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0038'}
+valid_loss: 10.534822597001728 {'epoch': 19, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0119'}
+valid_loss: 10.534822616242526 {'epoch': 20, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0101'}
+valid_loss: 10.529094793085466 {'epoch': 21, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0088'}
+valid_loss: 10.534530184561746 {'epoch': 22, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0164'}
+valid_loss: 10.522369701820507 {'epoch': 23, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0025'}
+valid_loss: 10.532896025975544 {'epoch': 24, 'rec_avg_loss': '0.0133', 'rec_cur_loss': '0.0123'}
+valid_loss: 10.534822513346086 valid_loss: 5.628561994485688 Finetune_sample_remaining-BPI2015_3_Sample-50 
+[5.628561994485688]

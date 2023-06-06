@@ -1,0 +1,17 @@
+Namespace(activity_size=100, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2015_3_attributes.txt', attribute_size=100, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2015_3.txt', data_name='BPI2015_3', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2015_3-50 .txt', log_freq=1, lr=0.01, mask_id=42, max_seq_length=100, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=61739, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2015_3_time_attributes.txt', time_scaler=MinMaxScaler(), weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0086'}
+valid_loss: 19.41779376467842 {'epoch': 1, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0414'}
+valid_loss: 19.417793724787373 {'epoch': 2, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0222'}
+valid_loss: 19.418554555581238 {'epoch': 3, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0134'}
+valid_loss: 19.403189752816225 {'epoch': 4, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0168'}
+valid_loss: 19.4233558920107 {'epoch': 5, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0151'}
+valid_loss: 19.42227084812951 {'epoch': 6, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0118'}
+valid_loss: 19.409038709759248 {'epoch': 7, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0116'}
+valid_loss: 19.41990139326697 {'epoch': 8, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0129'}
+valid_loss: 19.406494626739146 {'epoch': 9, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0114'}
+valid_loss: 19.424553067767665 {'epoch': 10, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0077'}
+valid_loss: 19.426660838294122 {'epoch': 11, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0570'}
+valid_loss: 19.419040804243274 {'epoch': 12, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0037'}
+valid_loss: 19.404274803191306 {'epoch': 13, 'rec_avg_loss': '0.0178', 'rec_cur_loss': '0.0213'}
+valid_loss: 19.410435593081818 valid_loss: 12.2052431384877 Finetune_sample_remaining-BPI2015_3-50 
+[12.2052431384877]

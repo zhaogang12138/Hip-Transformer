@@ -1,0 +1,29 @@
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2017_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2017.txt', data_name='BPI2017', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2017-50 .txt', log_freq=1, lr=0.01, mask_id=28, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=1170758, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2017_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '3.5534', 'rec_cur_loss': '2.4618'}
+valid_loss: 3.7871203057134966 {'epoch': 1, 'rec_avg_loss': '3.5540', 'rec_cur_loss': '3.5600'}
+valid_loss: 3.787099094414574 {'epoch': 2, 'rec_avg_loss': '3.5543', 'rec_cur_loss': '3.6733'}
+valid_loss: 3.7871783228378013 {'epoch': 3, 'rec_avg_loss': '3.5535', 'rec_cur_loss': '4.7702'}
+valid_loss: 3.787209012008388 {'epoch': 4, 'rec_avg_loss': '3.5538', 'rec_cur_loss': '2.5996'}
+valid_loss: 3.787093356050102 {'epoch': 5, 'rec_avg_loss': '3.5538', 'rec_cur_loss': '3.2888'}
+valid_loss: 3.7872487738966796 {'epoch': 6, 'rec_avg_loss': '3.5539', 'rec_cur_loss': '2.7353'}
+valid_loss: 3.7871377561401762 {'epoch': 7, 'rec_avg_loss': '3.5548', 'rec_cur_loss': '2.6165'}
+valid_loss: 3.7871931198924815 {'epoch': 8, 'rec_avg_loss': '3.5533', 'rec_cur_loss': '3.2310'}
+valid_loss: 3.787157160317424 {'epoch': 9, 'rec_avg_loss': '3.5533', 'rec_cur_loss': '4.1309'}
+valid_loss: 3.787163549940231 {'epoch': 10, 'rec_avg_loss': '3.5530', 'rec_cur_loss': '1.8546'}
+valid_loss: 3.7871925247746834 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2017_attributes.txt', attribute_size=200, batch_size=64, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2017.txt', data_name='BPI2017', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2017-50 .txt', log_freq=1, lr=0.01, mask_id=28, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=1170758, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2017_time_attributes.txt', time_scaler=MinMaxScaler(), weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0564'}
+valid_loss: 10.079738035301096 {'epoch': 1, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0633'}
+valid_loss: 10.080047840756624 {'epoch': 2, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0613'}
+valid_loss: 10.080334915757636 {'epoch': 3, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0569'}
+valid_loss: 10.07929041321777 {'epoch': 4, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0568'}
+valid_loss: 10.079954495646382 {'epoch': 5, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0725'}
+valid_loss: 10.080538810440071 {'epoch': 6, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0671'}
+valid_loss: 10.079910024910953 {'epoch': 7, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0616'}
+valid_loss: 10.080481257576835 {'epoch': 8, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0594'}
+valid_loss: 10.080258025570343 {'epoch': 9, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0518'}
+valid_loss: 10.080139558519933 {'epoch': 10, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0828'}
+valid_loss: 10.07991857513044 {'epoch': 11, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0568'}
+valid_loss: 10.080161164014179 {'epoch': 12, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0765'}
+valid_loss: 10.080405525720595 {'epoch': 13, 'rec_avg_loss': '0.0626', 'rec_cur_loss': '0.0908'}
+valid_loss: 10.080226122844147 valid_loss: 9.932233968936009 Finetune_sample_remaining-BPI2017-50 
+[9.932233968936009]

@@ -1,0 +1,35 @@
+Namespace(activity_size=17, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/helpdesk_attributes.txt', attribute_size=726, batch_size=12, ckp=30, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/helpdesk.txt', data_name='helpdesk', do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-helpdesk-30 .txt', log_freq=1, lr=0.01, mask_id=16, max_seq_length=10, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=16768, num_classes=20, num_hidden_layers=2, output_dir='output/', seed=2022, weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.8656', 'rec_cur_loss': '0.3626'}
+valid_loss: 0.6779755722168538 accuracies: 0.7949640287769785 fscores: 0.7511863669237769 precisions: 0.7405949050283582 recalls: 0.7949640287769785
+{'epoch': 1, 'rec_avg_loss': '0.6995', 'rec_cur_loss': '0.3325'}
+valid_loss: 0.6533160238600463 accuracies: 0.8015587529976019 fscores: 0.7605259515331457 precisions: 0.7539577861520308 recalls: 0.8015587529976019
+{'epoch': 2, 'rec_avg_loss': '0.6838', 'rec_cur_loss': '0.3092'}
+valid_loss: 0.6422200761467433 accuracies: 0.8009592326139089 fscores: 0.7599359473460193 precisions: 0.7533882417875223 recalls: 0.8009592326139089
+{'epoch': 3, 'rec_avg_loss': '0.6789', 'rec_cur_loss': '0.3553'}
+valid_loss: 0.6345192691405043 accuracies: 0.8015587529976019 fscores: 0.7605259515331457 precisions: 0.7539577861520308 recalls: 0.8015587529976019
+{'epoch': 4, 'rec_avg_loss': '0.6720', 'rec_cur_loss': '0.3573'}
+valid_loss: 0.6253972463041758 accuracies: 0.8015587529976019 fscores: 0.7605359435395406 precisions: 0.7539777701648205 recalls: 0.8015587529976019
+{'epoch': 5, 'rec_avg_loss': '0.6566', 'rec_cur_loss': '0.3295'}
+valid_loss: 0.614588747886445 accuracies: 0.8027577937649881 fscores: 0.7620514843536426 precisions: 0.7546205892428914 recalls: 0.8027577937649881
+{'epoch': 6, 'rec_avg_loss': '0.6501', 'rec_cur_loss': '0.3386'}
+valid_loss: 0.6183824795398781 accuracies: 0.8015587529976019 fscores: 0.7606858236354639 precisions: 0.7541576262799284 recalls: 0.8015587529976019
+{'epoch': 7, 'rec_avg_loss': '0.6505', 'rec_cur_loss': '0.3442'}
+valid_loss: 0.6146914075604446 accuracies: 0.8015587529976019 fscores: 0.7605259515331457 precisions: 0.7539577861520308 recalls: 0.8015587529976019
+{'epoch': 8, 'rec_avg_loss': '0.6475', 'rec_cur_loss': '0.3298'}
+valid_loss: 0.6152429103636913 accuracies: 0.8015587529976019 fscores: 0.7605259515331457 precisions: 0.7539577861520308 recalls: 0.8015587529976019
+{'epoch': 9, 'rec_avg_loss': '0.6440', 'rec_cur_loss': '0.3462'}
+valid_loss: 0.6130064387115643 accuracies: 0.8015587529976019 fscores: 0.7606858236354639 precisions: 0.7541576262799284 recalls: 0.8015587529976019
+{'epoch': 10, 'rec_avg_loss': '0.6395', 'rec_cur_loss': '0.3290'}
+valid_loss: 0.6106658672257294 accuracies: 0.8015587529976019 fscores: 0.7605259515331457 precisions: 0.7539577861520308 recalls: 0.8015587529976019
+{'epoch': 11, 'rec_avg_loss': '0.6357', 'rec_cur_loss': '0.3381'}
+valid_loss: 0.6094013493266894 accuracies: 0.8015587529976019 fscores: 0.7605259515331457 precisions: 0.7539577861520308 recalls: 0.8015587529976019
+{'epoch': 12, 'rec_avg_loss': '0.6398', 'rec_cur_loss': '0.3109'}
+valid_loss: 0.6096128016281471 accuracies: 0.8015587529976019 fscores: 0.7609670272440057 precisions: 0.7544059990103156 recalls: 0.8015587529976019
+{'epoch': 13, 'rec_avg_loss': '0.6367', 'rec_cur_loss': '0.3075'}
+valid_loss: 0.607787930279327 accuracies: 0.8009592326139089 fscores: 0.7602047798990246 precisions: 0.7537779300369228 recalls: 0.8009592326139089
+{'epoch': 14, 'rec_avg_loss': '0.6373', 'rec_cur_loss': '0.3274'}
+valid_loss: 0.6068097270435566 accuracies: 0.8009592326139089 fscores: 0.7602047798990246 precisions: 0.7537779300369228 recalls: 0.8009592326139089
+{'epoch': 15, 'rec_avg_loss': '0.6319', 'rec_cur_loss': '0.3252'}
+valid_loss: 0.6066694372206283 accuracies: 0.8009592326139089 fscores: 0.7602047798990246 precisions: 0.7537779300369228 recalls: 0.8009592326139089
+Finetune_full-helpdesk-30 
+None

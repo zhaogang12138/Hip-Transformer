@@ -1,0 +1,70 @@
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/Sepsis_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/Sepsis.txt', data_name='Sepsis', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_full-Sepsis-50 .txt', log_freq=1, lr=0.01, mask_id=18, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_full', no_cuda=False, num_attention_heads=4, num_cases=14141, num_classes=30, num_hidden_layers=2, output_dir='output/', seed=2022, time_attributes_file='./data/Sepsis_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '2.0676', 'rec_cur_loss': '1.9165'}
+valid_loss: 1.8031222300651746 accuracies: 0.3497150997150996 fscores: 0.2964516648277332 precisions: 0.28984957943291284 recalls: 0.3497150997150996
+{'epoch': 1, 'rec_avg_loss': '1.6348', 'rec_cur_loss': '1.6158'}
+valid_loss: 1.4931191751080701 accuracies: 0.4707977207977208 fscores: 0.43513571740067464 precisions: 0.4716363112196445 recalls: 0.4707977207977208
+{'epoch': 2, 'rec_avg_loss': '1.3912', 'rec_cur_loss': '1.6177'}
+valid_loss: 1.2923337740775867 accuracies: 0.542022792022792 fscores: 0.5240873482326474 precisions: 0.5589726631393298 recalls: 0.542022792022792
+{'epoch': 3, 'rec_avg_loss': '1.2834', 'rec_cur_loss': '1.6231'}
+valid_loss: 1.3398202721379762 accuracies: 0.5341880341880342 fscores: 0.5216149512089683 precisions: 0.5883970967304302 recalls: 0.5341880341880342
+{'epoch': 4, 'rec_avg_loss': '1.2374', 'rec_cur_loss': '1.3841'}
+valid_loss: 1.2515886318989289 accuracies: 0.5413105413105412 fscores: 0.5261526223064684 precisions: 0.5661138244471576 recalls: 0.5413105413105412
+{'epoch': 5, 'rec_avg_loss': '1.1674', 'rec_cur_loss': '1.0327'}
+valid_loss: 1.249653442293151 accuracies: 0.532051282051282 fscores: 0.5189093155973498 precisions: 0.5828618911952245 recalls: 0.532051282051282
+{'epoch': 6, 'rec_avg_loss': '1.1505', 'rec_cur_loss': '1.2680'}
+valid_loss: 1.1962892515027626 accuracies: 0.551994301994302 fscores: 0.5447225100002877 precisions: 0.6128798670465337 recalls: 0.551994301994302
+{'epoch': 7, 'rec_avg_loss': '1.1386', 'rec_cur_loss': '1.1624'}
+valid_loss: 1.163799219406568 accuracies: 0.581908831908832 fscores: 0.5629950780277577 precisions: 0.5982352010129788 recalls: 0.581908831908832
+{'epoch': 8, 'rec_avg_loss': '1.1226', 'rec_cur_loss': '0.9296'}
+valid_loss: 1.136591543499221 accuracies: 0.5705128205128204 fscores: 0.5489979196175778 precisions: 0.5929083005471893 recalls: 0.5705128205128204
+{'epoch': 9, 'rec_avg_loss': '1.1139', 'rec_cur_loss': '0.4232'}
+valid_loss: 1.193854069098448 accuracies: 0.5484330484330485 fscores: 0.5256551852705699 precisions: 0.5750067833401165 recalls: 0.5484330484330485
+{'epoch': 10, 'rec_avg_loss': '1.0860', 'rec_cur_loss': '1.1225'}
+valid_loss: 1.1331255410471532 accuracies: 0.5676638176638176 fscores: 0.5583929286920739 precisions: 0.6048102360602361 recalls: 0.5676638176638176
+{'epoch': 11, 'rec_avg_loss': '1.0762', 'rec_cur_loss': '1.1267'}
+valid_loss: 1.1293257477446499 accuracies: 0.5754985754985755 fscores: 0.5633274528573674 precisions: 0.6132512549179215 recalls: 0.5754985754985755
+{'epoch': 12, 'rec_avg_loss': '1.0647', 'rec_cur_loss': '1.6482'}
+valid_loss: 1.0977709130344229 accuracies: 0.5776353276353275 fscores: 0.56496544370476 precisions: 0.6028320444987111 recalls: 0.5776353276353275
+{'epoch': 13, 'rec_avg_loss': '1.0658', 'rec_cur_loss': '1.0561'}
+valid_loss: 1.0948357161803124 accuracies: 0.5897435897435898 fscores: 0.5810186805913301 precisions: 0.6264473951973951 recalls: 0.5897435897435898
+{'epoch': 14, 'rec_avg_loss': '1.0589', 'rec_cur_loss': '1.0100'}
+valid_loss: 1.0979998371539972 accuracies: 0.5854700854700855 fscores: 0.5827689839441978 precisions: 0.6503222086555419 recalls: 0.5854700854700855
+{'epoch': 15, 'rec_avg_loss': '1.0492', 'rec_cur_loss': '0.8171'}
+valid_loss: 1.105938663849464 accuracies: 0.5783475783475784 fscores: 0.5809637537201641 precisions: 0.6461792836792837 recalls: 0.5783475783475784
+{'epoch': 16, 'rec_avg_loss': '1.0398', 'rec_cur_loss': '1.0000'}
+valid_loss: 1.0934548996962035 accuracies: 0.5897435897435898 fscores: 0.5801449460637494 precisions: 0.6283713200379866 recalls: 0.5897435897435898
+{'epoch': 17, 'rec_avg_loss': '1.0378', 'rec_cur_loss': '0.8665'}
+valid_loss: 1.0879869606250372 accuracies: 0.5897435897435898 fscores: 0.5880255942221754 precisions: 0.6511446886446884 recalls: 0.5897435897435898
+{'epoch': 18, 'rec_avg_loss': '1.0343', 'rec_cur_loss': '1.4449'}
+valid_loss: 1.0966885194309757 accuracies: 0.594017094017094 fscores: 0.5903865167754058 precisions: 0.6417429792429793 recalls: 0.594017094017094
+{'epoch': 19, 'rec_avg_loss': '1.0299', 'rec_cur_loss': '0.8089'}
+valid_loss: 1.0897067270727239 accuracies: 0.5968660968660968 fscores: 0.5925839039086903 precisions: 0.6487849342016009 recalls: 0.5968660968660968
+{'epoch': 20, 'rec_avg_loss': '1.0233', 'rec_cur_loss': '0.8586'}
+valid_loss: 1.0810320632070558 accuracies: 0.5883190883190883 fscores: 0.5857920569459031 precisions: 0.6299857549857549 recalls: 0.5883190883190883
+{'epoch': 21, 'rec_avg_loss': '1.0269', 'rec_cur_loss': '0.6777'}
+valid_loss: 1.0919137128397949 accuracies: 0.5868945868945871 fscores: 0.5940856468634245 precisions: 0.6696581196581196 recalls: 0.5868945868945871
+{'epoch': 22, 'rec_avg_loss': '1.0226', 'rec_cur_loss': '1.0983'}
+valid_loss: 1.0834017255876818 accuracies: 0.5990028490028488 fscores: 0.5958986368174404 precisions: 0.6568223443223442 recalls: 0.5990028490028488
+{'epoch': 23, 'rec_avg_loss': '1.0215', 'rec_cur_loss': '0.5914'}
+valid_loss: 1.0951078615636907 accuracies: 0.5847578347578348 fscores: 0.5868453246658374 precisions: 0.6497388414055082 recalls: 0.5847578347578348
+{'epoch': 24, 'rec_avg_loss': '1.0191', 'rec_cur_loss': '1.0070'}
+valid_loss: 1.0718582924614606 accuracies: 0.5954415954415953 fscores: 0.5963642996762655 precisions: 0.6562135395468728 recalls: 0.5954415954415953
+{'epoch': 25, 'rec_avg_loss': '1.0167', 'rec_cur_loss': '1.0995'}
+valid_loss: 1.0727416495991569 accuracies: 0.5925925925925926 fscores: 0.5857245832673184 precisions: 0.6334588251254916 recalls: 0.5925925925925926
+{'epoch': 26, 'rec_avg_loss': '1.0183', 'rec_cur_loss': '1.0640'}
+valid_loss: 1.0726580795569298 accuracies: 0.5940170940170941 fscores: 0.5877115682671237 precisions: 0.6356668023334692 recalls: 0.5940170940170941
+{'epoch': 27, 'rec_avg_loss': '1.0089', 'rec_cur_loss': '1.5546'}
+valid_loss: 1.0727461487309546 accuracies: 0.5933048433048432 fscores: 0.5885265929069348 precisions: 0.6486424840591505 recalls: 0.5933048433048432
+{'epoch': 28, 'rec_avg_loss': '1.0149', 'rec_cur_loss': '0.7111'}
+valid_loss: 1.0772713858347673 accuracies: 0.5883190883190883 fscores: 0.5828075177434151 precisions: 0.6296949192782526 recalls: 0.5883190883190883
+{'epoch': 29, 'rec_avg_loss': '1.0119', 'rec_cur_loss': '1.1908'}
+valid_loss: 1.0668941794807076 accuracies: 0.5954415954415954 fscores: 0.5905693586249142 precisions: 0.6414767331433998 recalls: 0.5954415954415954
+{'epoch': 30, 'rec_avg_loss': '1.0111', 'rec_cur_loss': '0.9542'}
+valid_loss: 1.0741906204284766 accuracies: 0.5933048433048433 fscores: 0.5900230941897608 precisions: 0.646978021978022 recalls: 0.5933048433048433
+{'epoch': 31, 'rec_avg_loss': '1.0011', 'rec_cur_loss': '1.1627'}
+valid_loss: 1.0708601991844993 accuracies: 0.594017094017094 fscores: 0.5856329339989471 precisions: 0.6334237778682225 recalls: 0.594017094017094
+{'epoch': 32, 'rec_avg_loss': '1.0052', 'rec_cur_loss': '1.0118'}
+valid_loss: 1.070854389005237 accuracies: 0.5940170940170939 fscores: 0.5913400899512011 precisions: 0.6420177045177046 recalls: 0.5940170940170939
+valid_loss: 1.01588557418595 accuracies: 0.6168091168091169 fscores: 0.6050689773980372 precisions: 0.6541276624609959 recalls: 0.6168091168091169
+Finetune_full-Sepsis-50 
+[1.01588557418595]

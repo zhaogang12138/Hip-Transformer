@@ -1,0 +1,489 @@
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '3.7677', 'rec_cur_loss': '2.1624'}
+valid_loss: 2.9457059756512076 {'epoch': 1, 'rec_avg_loss': '3.4029', 'rec_cur_loss': '0.5374'}
+valid_loss: 2.592487512499361 {'epoch': 2, 'rec_avg_loss': '3.2088', 'rec_cur_loss': '0.6748'}
+valid_loss: 2.4649502893438195 {'epoch': 3, 'rec_avg_loss': '3.0624', 'rec_cur_loss': '0.8782'}
+valid_loss: 2.3444114268270306 {'epoch': 4, 'rec_avg_loss': '3.0335', 'rec_cur_loss': '0.5960'}
+valid_loss: 2.337952273915691 {'epoch': 5, 'rec_avg_loss': '2.9495', 'rec_cur_loss': '0.1295'}
+valid_loss: 2.2465488759757917 {'epoch': 6, 'rec_avg_loss': '2.9252', 'rec_cur_loss': '33.5407'}
+valid_loss: 2.226991644005894 {'epoch': 7, 'rec_avg_loss': '2.8997', 'rec_cur_loss': '0.7031'}
+valid_loss: 2.2469469721648183 {'epoch': 8, 'rec_avg_loss': '2.8899', 'rec_cur_loss': '0.6914'}
+valid_loss: 2.2119432364726235 {'epoch': 9, 'rec_avg_loss': '2.8807', 'rec_cur_loss': '0.2803'}
+valid_loss: 2.178126037064249 {'epoch': 10, 'rec_avg_loss': '2.8527', 'rec_cur_loss': '8.1144'}
+valid_loss: 2.1988715120255375 {'epoch': 11, 'rec_avg_loss': '2.8402', 'rec_cur_loss': '5.3293'}
+valid_loss: 2.2595968533859914 {'epoch': 12, 'rec_avg_loss': '2.8396', 'rec_cur_loss': '1.7831'}
+valid_loss: 2.164561501989984 {'epoch': 13, 'rec_avg_loss': '2.8264', 'rec_cur_loss': '1.4058'}
+valid_loss: 2.1667426203894418 {'epoch': 14, 'rec_avg_loss': '2.8368', 'rec_cur_loss': '1.8155'}
+valid_loss: 2.1680972624601096 {'epoch': 15, 'rec_avg_loss': '2.8099', 'rec_cur_loss': '1.3500'}
+valid_loss: 2.1761817275415485 {'epoch': 16, 'rec_avg_loss': '2.8162', 'rec_cur_loss': '0.5529'}
+valid_loss: 2.1549579506826912 {'epoch': 17, 'rec_avg_loss': '2.8044', 'rec_cur_loss': '7.1352'}
+valid_loss: 2.156228684513863 {'epoch': 18, 'rec_avg_loss': '2.8084', 'rec_cur_loss': '10.6854'}
+valid_loss: 2.1695761469495305 {'epoch': 19, 'rec_avg_loss': '2.8095', 'rec_cur_loss': '0.9965'}
+valid_loss: 2.1537221593691793 {'epoch': 20, 'rec_avg_loss': '2.8065', 'rec_cur_loss': '2.0369'}
+valid_loss: 2.1511801635957255 {'epoch': 21, 'rec_avg_loss': '2.8022', 'rec_cur_loss': '0.5320'}
+valid_loss: 2.1492316269642098 {'epoch': 22, 'rec_avg_loss': '2.8059', 'rec_cur_loss': '0.2390'}
+valid_loss: 2.1431877017253416 {'epoch': 23, 'rec_avg_loss': '2.7976', 'rec_cur_loss': '1.8211'}
+valid_loss: 2.1413253612722247 {'epoch': 24, 'rec_avg_loss': '2.7991', 'rec_cur_loss': '1.8177'}
+valid_loss: 2.1386950290130686 {'epoch': 25, 'rec_avg_loss': '2.7964', 'rec_cur_loss': '1.9029'}
+valid_loss: 2.139350327077772 {'epoch': 26, 'rec_avg_loss': '2.7933', 'rec_cur_loss': '5.1879'}
+valid_loss: 2.1401808786615635 {'epoch': 27, 'rec_avg_loss': '2.7919', 'rec_cur_loss': '0.5005'}
+valid_loss: 2.1468183707000446 {'epoch': 28, 'rec_avg_loss': '2.7818', 'rec_cur_loss': '0.5727'}
+valid_loss: 2.1377638069051734 {'epoch': 29, 'rec_avg_loss': '2.7936', 'rec_cur_loss': '1.0389'}
+valid_loss: 2.144474280953748 {'epoch': 30, 'rec_avg_loss': '2.7890', 'rec_cur_loss': '6.7979'}
+valid_loss: 2.141685144370779 {'epoch': 31, 'rec_avg_loss': '2.7930', 'rec_cur_loss': '0.5193'}
+valid_loss: 2.1307205643601326 {'epoch': 32, 'rec_avg_loss': '2.7816', 'rec_cur_loss': '9.7146'}
+valid_loss: 2.1441933192715257 {'epoch': 33, 'rec_avg_loss': '2.7902', 'rec_cur_loss': '0.2588'}
+valid_loss: 2.1402559456775143 {'epoch': 34, 'rec_avg_loss': '2.7943', 'rec_cur_loss': '1.5032'}
+valid_loss: 2.1431841624595815 {'epoch': 35, 'rec_avg_loss': '2.7801', 'rec_cur_loss': '0.2463'}
+valid_loss: 2.139942941776908 {'epoch': 36, 'rec_avg_loss': '2.7819', 'rec_cur_loss': '0.0511'}
+valid_loss: 2.1411937697644077 {'epoch': 37, 'rec_avg_loss': '2.7798', 'rec_cur_loss': '1.6157'}
+valid_loss: 2.141119162564564 {'epoch': 38, 'rec_avg_loss': '2.7913', 'rec_cur_loss': '0.4395'}
+valid_loss: 2.1197869937823457 {'epoch': 39, 'rec_avg_loss': '2.7908', 'rec_cur_loss': '0.3664'}
+valid_loss: 2.1431469905739196 {'epoch': 40, 'rec_avg_loss': '2.7806', 'rec_cur_loss': '0.3241'}
+valid_loss: 2.140408158686984 {'epoch': 41, 'rec_avg_loss': '2.7782', 'rec_cur_loss': '25.9424'}
+valid_loss: 2.141944473871933 {'epoch': 42, 'rec_avg_loss': '2.7810', 'rec_cur_loss': '0.0397'}
+valid_loss: 2.139461384160811 {'epoch': 43, 'rec_avg_loss': '2.7891', 'rec_cur_loss': '0.4170'}
+valid_loss: 2.143510669004172 {'epoch': 44, 'rec_avg_loss': '2.7923', 'rec_cur_loss': '0.9866'}
+valid_loss: 2.140085010017004 {'epoch': 45, 'rec_avg_loss': '2.7800', 'rec_cur_loss': '0.2182'}
+valid_loss: 2.075570445194545 {'epoch': 46, 'rec_avg_loss': '2.7785', 'rec_cur_loss': '22.0832'}
+valid_loss: 2.1428859621153005 {'epoch': 47, 'rec_avg_loss': '2.7861', 'rec_cur_loss': '11.2924'}
+valid_loss: 2.1391549913422265 {'epoch': 48, 'rec_avg_loss': '2.7804', 'rec_cur_loss': '0.7819'}
+valid_loss: 2.141034995281921 {'epoch': 49, 'rec_avg_loss': '2.7847', 'rec_cur_loss': '10.2755'}
+valid_loss: 2.142612397733866 {'epoch': 50, 'rec_avg_loss': '2.7811', 'rec_cur_loss': '40.7051'}
+valid_loss: 2.142585129436591 {'epoch': 51, 'rec_avg_loss': '2.7917', 'rec_cur_loss': '1.0994'}
+valid_loss: 2.1395772430834974 {'epoch': 52, 'rec_avg_loss': '2.7926', 'rec_cur_loss': '0.3420'}
+valid_loss: 2.1418414027126427 {'epoch': 53, 'rec_avg_loss': '2.7925', 'rec_cur_loss': '3.0926'}
+valid_loss: 2.1425837466220523 {'epoch': 54, 'rec_avg_loss': '2.7861', 'rec_cur_loss': '0.1487'}
+valid_loss: 2.1414269413906233 {'epoch': 55, 'rec_avg_loss': '2.7848', 'rec_cur_loss': '1.6914'}
+valid_loss: 2.1418839186778924 valid_loss: 1.4067865985337302 Finetune_sample_remaining-BPI2012_Sample-50 
+[1.4067865985337302]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '111.4274', 'rec_cur_loss': '360.1745'}
+valid_loss: 46.36493161755145 {'epoch': 1, 'rec_avg_loss': '95.2976', 'rec_cur_loss': '86.5902'}
+valid_loss: 44.89872972556697 {'epoch': 2, 'rec_avg_loss': '93.8155', 'rec_cur_loss': '185.6484'}
+valid_loss: 42.997132168401535 {'epoch': 3, 'rec_avg_loss': '93.5644', 'rec_cur_loss': '41.5920'}
+valid_loss: 53.20410272227529 {'epoch': 4, 'rec_avg_loss': '92.3598', 'rec_cur_loss': '47.3727'}
+valid_loss: 40.83282112633176 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 5, 'rec_avg_loss': '91.0118', 'rec_cur_loss': '95.3362'}
+valid_loss: 44.33484426605732 {'epoch': 0, 'rec_avg_loss': '106.0602', 'rec_cur_loss': '370.5891'}
+valid_loss: 43.432457236682666 {'epoch': 6, 'rec_avg_loss': '90.4680', 'rec_cur_loss': '103.4198'}
+valid_loss: 43.72946766514303 {'epoch': 1, 'rec_avg_loss': '95.1514', 'rec_cur_loss': '76.2153'}
+valid_loss: 45.55864143188652 {'epoch': 7, 'rec_avg_loss': '90.1438', 'rec_cur_loss': '231.3897'}
+valid_loss: 45.76497751733531 {'epoch': 2, 'rec_avg_loss': '93.3500', 'rec_cur_loss': '177.7038'}
+valid_loss: 52.317209695001395 {'epoch': 8, 'rec_avg_loss': '90.2707', 'rec_cur_loss': '29.9111'}
+valid_loss: 45.41834908922005 {'epoch': 3, 'rec_avg_loss': '92.9027', 'rec_cur_loss': '35.8759'}
+valid_loss: 58.85716940131029 {'epoch': 4, 'rec_avg_loss': '92.4557', 'rec_cur_loss': '53.0248'}
+valid_loss: 45.51303126653442 {'epoch': 9, 'rec_avg_loss': '89.9703', 'rec_cur_loss': '51.3704'}
+valid_loss: 44.88398325656686 {'epoch': 5, 'rec_avg_loss': '90.8685', 'rec_cur_loss': '108.5977'}
+valid_loss: 44.12452084512052 {'epoch': 10, 'rec_avg_loss': '89.5762', 'rec_cur_loss': '37.4232'}
+valid_loss: 43.3000793371664 {'epoch': 6, 'rec_avg_loss': '90.4752', 'rec_cur_loss': '87.6232'}
+valid_loss: 45.24497149941866 {'epoch': 11, 'rec_avg_loss': '89.3490', 'rec_cur_loss': '143.6689'}
+valid_loss: 44.52622370707714 {'epoch': 7, 'rec_avg_loss': '90.1188', 'rec_cur_loss': '213.0103'}
+valid_loss: 50.4894407277217 {'epoch': 12, 'rec_avg_loss': '89.2573', 'rec_cur_loss': '51.6779'}
+valid_loss: 43.35211729088708 {'epoch': 8, 'rec_avg_loss': '89.9492', 'rec_cur_loss': '32.4420'}
+valid_loss: 48.158646268003125 {'epoch': 9, 'rec_avg_loss': '89.9098', 'rec_cur_loss': '54.9610'}
+valid_loss: 45.316106494430386 {'epoch': 13, 'rec_avg_loss': '89.1647', 'rec_cur_loss': '49.8705'}
+valid_loss: 45.668228031729186 {'epoch': 10, 'rec_avg_loss': '89.2932', 'rec_cur_loss': '37.8662'}
+valid_loss: 45.338007826329495 valid_loss: 37.86284676018883 Finetune_sample_remaining-BPI2012_Sample-50 
+[37.86284676018883]
+{'epoch': 14, 'rec_avg_loss': '89.1891', 'rec_cur_loss': '156.1454'}
+valid_loss: 43.113142856551555 valid_loss: 34.052347992997035 Finetune_sample_remaining-BPI2012_Sample-50 
+[34.052347992997035]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '124.1638', 'rec_cur_loss': '279.4960'}
+valid_loss: 77.30588216366975 {'epoch': 1, 'rec_avg_loss': '124.0004', 'rec_cur_loss': '181.9385'}
+valid_loss: 77.27428167494362 {'epoch': 2, 'rec_avg_loss': '124.0144', 'rec_cur_loss': '59.0961'}
+valid_loss: 77.30550094272779 {'epoch': 3, 'rec_avg_loss': '124.1030', 'rec_cur_loss': '45.2986'}
+valid_loss: 77.31566511090759 {'epoch': 4, 'rec_avg_loss': '124.0769', 'rec_cur_loss': '54.1503'}
+valid_loss: 77.24489868632362 {'epoch': 5, 'rec_avg_loss': '124.0696', 'rec_cur_loss': '49.4709'}
+valid_loss: 77.28100578132492 {'epoch': 6, 'rec_avg_loss': '123.8785', 'rec_cur_loss': '57.5937'}
+valid_loss: 77.221023283956 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '11438851924.9518', 'rec_cur_loss': '11974041600.0000'}
+valid_loss: 6896244713.73913 {'epoch': 1, 'rec_avg_loss': '11313547809.7477', 'rec_cur_loss': '3819313920.0000'}
+valid_loss: 6893975814.8746805 {'epoch': 2, 'rec_avg_loss': '11379572845.0105', 'rec_cur_loss': '11350499328.0000'}
+valid_loss: 6895502141.626598 {'epoch': 3, 'rec_avg_loss': '11382126139.9527', 'rec_cur_loss': '6534990848.0000'}
+valid_loss: 6888884247.242967 {'epoch': 4, 'rec_avg_loss': '11307304914.9077', 'rec_cur_loss': '8572570624.0000'}
+valid_loss: 6894135611.089514 {'epoch': 5, 'rec_avg_loss': '11411020692.0728', 'rec_cur_loss': '23558666240.0000'}
+valid_loss: 6893640761.043478 {'epoch': 6, 'rec_avg_loss': '11370268520.0843', 'rec_cur_loss': '10954424320.0000'}
+valid_loss: 6900529963.539642 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '79462.4924', 'rec_cur_loss': '93556.3984'}
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '79462.4924', 'rec_cur_loss': '93556.3984'}
+valid_loss: 56217.456649116844 {'epoch': 1, 'rec_avg_loss': '79553.5140', 'rec_cur_loss': '64510.2734'}
+valid_loss: 56213.19674612372 {'epoch': 2, 'rec_avg_loss': '79699.9285', 'rec_cur_loss': '99001.0234'}
+valid_loss: 56197.020655171036 {'epoch': 3, 'rec_avg_loss': '80096.1585', 'rec_cur_loss': '69721.5469'}
+valid_loss: 56208.922347046835 {'epoch': 4, 'rec_avg_loss': '80039.0916', 'rec_cur_loss': '66356.5938'}
+valid_loss: 56218.69743046675 {'epoch': 5, 'rec_avg_loss': '79979.8925', 'rec_cur_loss': '75409.7500'}
+valid_loss: 56219.70259051311 {'epoch': 6, 'rec_avg_loss': '79488.3283', 'rec_cur_loss': '81949.9297'}
+valid_loss: 56196.969836457 {'epoch': 7, 'rec_avg_loss': '79656.7775', 'rec_cur_loss': '71426.3750'}
+valid_loss: 56217.99395330483 {'epoch': 8, 'rec_avg_loss': '79827.9195', 'rec_cur_loss': '64782.9961'}
+valid_loss: 56221.325512507996 {'epoch': 9, 'rec_avg_loss': '79455.4128', 'rec_cur_loss': '69811.3672'}
+valid_loss: 56219.79500929108 {'epoch': 10, 'rec_avg_loss': '79725.9183', 'rec_cur_loss': '62627.6641'}
+valid_loss: 56192.36445262548 {'epoch': 11, 'rec_avg_loss': '80209.6784', 'rec_cur_loss': '77284.7969'}
+valid_loss: 56215.06552959159 {'epoch': 12, 'rec_avg_loss': '79890.7302', 'rec_cur_loss': '110677.8438'}
+valid_loss: 56208.22478420716 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '108458.4152', 'rec_cur_loss': '120834.8281'}
+valid_loss: 81948.9987986533 {'epoch': 1, 'rec_avg_loss': '108407.4077', 'rec_cur_loss': '71615.3438'}
+valid_loss: 81932.95771059782 {'epoch': 2, 'rec_avg_loss': '108740.2721', 'rec_cur_loss': '76045.2344'}
+valid_loss: 81944.67993726023 {'epoch': 3, 'rec_avg_loss': '108110.4301', 'rec_cur_loss': '87801.9844'}
+valid_loss: 81942.92726482576 {'epoch': 4, 'rec_avg_loss': '108431.8478', 'rec_cur_loss': '77825.3906'}
+valid_loss: 81941.051001039 {'epoch': 5, 'rec_avg_loss': '108423.0458', 'rec_cur_loss': '129233.8984'}
+valid_loss: 81943.25806725543 {'epoch': 6, 'rec_avg_loss': '108542.0133', 'rec_cur_loss': '90033.7422'}
+valid_loss: 81959.77949668319 {'epoch': 7, 'rec_avg_loss': '108184.6953', 'rec_cur_loss': '81037.3750'}
+valid_loss: 81955.76991588075 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '108457.9152', 'rec_cur_loss': '120834.3281'}
+valid_loss: 81948.4988186341 {'epoch': 1, 'rec_avg_loss': '108406.9077', 'rec_cur_loss': '71614.8438'}
+valid_loss: 81932.45774056905 {'epoch': 2, 'rec_avg_loss': '108739.7721', 'rec_cur_loss': '76044.7344'}
+valid_loss: 81944.17997222666 {'epoch': 3, 'rec_avg_loss': '108109.9301', 'rec_cur_loss': '87801.4844'}
+valid_loss: 81942.427294797 {'epoch': 4, 'rec_avg_loss': '108431.3478', 'rec_cur_loss': '77824.8906'}
+valid_loss: 81940.55104100064 {'epoch': 5, 'rec_avg_loss': '108422.5458', 'rec_cur_loss': '129233.3984'}
+valid_loss: 81942.75810222187 {'epoch': 6, 'rec_avg_loss': '108541.5133', 'rec_cur_loss': '90033.2422'}
+valid_loss: 81959.27953664483 {'epoch': 7, 'rec_avg_loss': '108184.1953', 'rec_cur_loss': '81036.8750'}
+valid_loss: 81955.26995584239 {'epoch': 8, 'rec_avg_loss': '108400.1315', 'rec_cur_loss': '149532.5625'}
+valid_loss: 81933.34303069054 {'epoch': 9, 'rec_avg_loss': '108346.5676', 'rec_cur_loss': '85356.8438'}
+valid_loss: 81945.51289761829 {'epoch': 10, 'rec_avg_loss': '108590.9497', 'rec_cur_loss': '128422.2422'}
+valid_loss: 81921.7096337516 {'epoch': 11, 'rec_avg_loss': '108239.0158', 'rec_cur_loss': '122287.4688'}
+valid_loss: 81958.59105258952 {'epoch': 12, 'rec_avg_loss': '108439.0189', 'rec_cur_loss': '107182.5859'}
+valid_loss: 81925.83781070172 {'epoch': 13, 'rec_avg_loss': '108538.4425', 'rec_cur_loss': '126206.0000'}
+valid_loss: 81939.29465213395 {'epoch': 14, 'rec_avg_loss': '108489.2170', 'rec_cur_loss': '159115.1562'}
+valid_loss: 81934.15546075767 {'epoch': 15, 'rec_avg_loss': '108180.5431', 'rec_cur_loss': '121335.8594'}
+valid_loss: 81946.11626338714 {'epoch': 16, 'rec_avg_loss': '108206.9495', 'rec_cur_loss': '126921.0469'}
+valid_loss: 81938.69065696931 {'epoch': 17, 'rec_avg_loss': '108409.5132', 'rec_cur_loss': '76978.5469'}
+valid_loss: 81942.59389985613 {'epoch': 18, 'rec_avg_loss': '108511.1949', 'rec_cur_loss': '82338.3750'}
+valid_loss: 81916.57863451086 {'epoch': 19, 'rec_avg_loss': '108399.2916', 'rec_cur_loss': '94350.9922'}
+valid_loss: 81936.00544227542 {'epoch': 20, 'rec_avg_loss': '108893.9717', 'rec_cur_loss': '97055.2734'}
+valid_loss: 81944.40170436382 {'epoch': 21, 'rec_avg_loss': '108205.9945', 'rec_cur_loss': '112519.9375'}
+valid_loss: 81967.21010829603 {'epoch': 22, 'rec_avg_loss': '108393.2336', 'rec_cur_loss': '140815.6562'}
+valid_loss: 81911.10450467552 {'epoch': 23, 'rec_avg_loss': '108514.4606', 'rec_cur_loss': '83168.2344'}
+valid_loss: 81933.6252097986 {'epoch': 24, 'rec_avg_loss': '108670.1280', 'rec_cur_loss': '145126.7188'}
+valid_loss: 81950.94100163842 {'epoch': 25, 'rec_avg_loss': '108481.7787', 'rec_cur_loss': '109166.5859'}
+valid_loss: 81924.71039801791 {'epoch': 26, 'rec_avg_loss': '108171.2442', 'rec_cur_loss': '127966.9219'}
+valid_loss: 81983.11047394501 {'epoch': 27, 'rec_avg_loss': '108529.8029', 'rec_cur_loss': '69467.0547'}
+valid_loss: 81930.27597006873 {'epoch': 28, 'rec_avg_loss': '108567.6534', 'rec_cur_loss': '104276.0000'}
+valid_loss: 81936.11083859495 {'epoch': 29, 'rec_avg_loss': '108052.2944', 'rec_cur_loss': '63996.6406'}
+valid_loss: 81920.18211267183 {'epoch': 30, 'rec_avg_loss': '108175.9472', 'rec_cur_loss': '108302.9375'}
+valid_loss: 81911.29624060901 {'epoch': 31, 'rec_avg_loss': '108267.3921', 'rec_cur_loss': '112559.6719'}
+valid_loss: 81923.77878486653 {'epoch': 32, 'rec_avg_loss': '108246.4747', 'rec_cur_loss': '122774.9375'}
+valid_loss: 81932.6318334399 valid_loss: 80378.48625319693 Finetune_sample_remaining-BPI2012_Sample-50 
+[80378.48625319693]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '81.4201', 'rec_cur_loss': '87.1371'}
+valid_loss: 96.77228338334261 {'epoch': 1, 'rec_avg_loss': '81.4752', 'rec_cur_loss': '80.5244'}
+valid_loss: 96.7680152346716 {'epoch': 2, 'rec_avg_loss': '81.4449', 'rec_cur_loss': '82.0212'}
+valid_loss: 96.7744849612341 {'epoch': 3, 'rec_avg_loss': '81.4904', 'rec_cur_loss': '80.5287'}
+valid_loss: 96.7651275576228 {'epoch': 4, 'rec_avg_loss': '81.4293', 'rec_cur_loss': '90.2205'}
+valid_loss: 96.77197594410929 {'epoch': 5, 'rec_avg_loss': '81.4375', 'rec_cur_loss': '87.1594'}
+valid_loss: 96.76894503542225 {'epoch': 6, 'rec_avg_loss': '81.4847', 'rec_cur_loss': '77.6466'}
+valid_loss: 96.76771744437839 {'epoch': 7, 'rec_avg_loss': '81.4904', 'rec_cur_loss': '85.6706'}
+valid_loss: 96.76938941350679 {'epoch': 8, 'rec_avg_loss': '81.4329', 'rec_cur_loss': '81.8551'}
+valid_loss: 96.76939541360606 {'epoch': 9, 'rec_avg_loss': '81.4113', 'rec_cur_loss': '82.7648'}
+valid_loss: 96.76566350795424 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '7.4302', 'rec_cur_loss': '3.8708'}
+valid_loss: 5.648802426160144 {'epoch': 1, 'rec_avg_loss': '7.4166', 'rec_cur_loss': '13.0459'}
+valid_loss: 5.651041445219913 {'epoch': 2, 'rec_avg_loss': '7.4110', 'rec_cur_loss': '12.0468'}
+valid_loss: 5.644541030420976 {'epoch': 3, 'rec_avg_loss': '7.4123', 'rec_cur_loss': '6.9344'}
+valid_loss: 5.649923118255328 {'epoch': 4, 'rec_avg_loss': '7.4114', 'rec_cur_loss': '8.2477'}
+valid_loss: 5.651255776205331 {'epoch': 5, 'rec_avg_loss': '7.4124', 'rec_cur_loss': '3.7800'}
+valid_loss: 5.650722954431763 {'epoch': 6, 'rec_avg_loss': '7.4176', 'rec_cur_loss': '12.2538'}
+valid_loss: 5.646885433312877 {'epoch': 7, 'rec_avg_loss': '7.4113', 'rec_cur_loss': '7.1011'}
+valid_loss: 5.648320621960913 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '8.5183', 'rec_cur_loss': '8.7012'}
+valid_loss: 6.970610743593377 {'epoch': 1, 'rec_avg_loss': '8.4690', 'rec_cur_loss': '4.1642'}
+valid_loss: 7.347683530939205 {'epoch': 2, 'rec_avg_loss': '8.4791', 'rec_cur_loss': '6.9041'}
+valid_loss: 6.851995079108821 {'epoch': 3, 'rec_avg_loss': '8.4691', 'rec_cur_loss': '9.7729'}
+valid_loss: 7.081000251233426 {'epoch': 4, 'rec_avg_loss': '8.4657', 'rec_cur_loss': '9.2547'}
+valid_loss: 6.799575544684134 {'epoch': 5, 'rec_avg_loss': '8.4997', 'rec_cur_loss': '6.6973'}
+valid_loss: 7.013497775472948 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 6, 'rec_avg_loss': '8.4812', 'rec_cur_loss': '7.5170'}
+valid_loss: 6.743452996396653 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 7, 'rec_avg_loss': '8.4684', 'rec_cur_loss': '8.0454'}
+valid_loss: 6.842875265404391 {'epoch': 8, 'rec_avg_loss': '8.4719', 'rec_cur_loss': '10.0237'}
+valid_loss: 7.246797047307729 {'epoch': 9, 'rec_avg_loss': '8.5095', 'rec_cur_loss': '9.3767'}
+valid_loss: 6.983963972772174 {'epoch': 10, 'rec_avg_loss': '8.4928', 'rec_cur_loss': '4.7919'}
+valid_loss: 6.805756520737162 {'epoch': 11, 'rec_avg_loss': '8.4620', 'rec_cur_loss': '8.4132'}
+valid_loss: 6.843141081083156 {'epoch': 12, 'rec_avg_loss': '8.4782', 'rec_cur_loss': '12.1735'}
+valid_loss: 6.952618202589966 {'epoch': 13, 'rec_avg_loss': '8.4835', 'rec_cur_loss': '6.6502'}
+valid_loss: 6.845413922958667 {'epoch': 14, 'rec_avg_loss': '8.5068', 'rec_cur_loss': '8.2396'}
+valid_loss: 7.462553568203431 {'epoch': 15, 'rec_avg_loss': '8.4712', 'rec_cur_loss': '6.3764'}
+valid_loss: 6.965246077388754 {'epoch': 16, 'rec_avg_loss': '8.4551', 'rec_cur_loss': '8.7567'}
+valid_loss: 7.067443979365747 valid_loss: 4.909791433445328 Finetune_sample_remaining-BPI2012_Sample-50 
+[4.909791433445328]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+valid_loss: 3.804263457770238 Finetune_sample_remaining-BPI2012_Sample-50 
+[3.804263457770238]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '6.8907', 'rec_cur_loss': '9.2784'}
+valid_loss: 5.245710548842349 {'epoch': 1, 'rec_avg_loss': '6.8896', 'rec_cur_loss': '5.5062'}
+valid_loss: 5.241922308416927 {'epoch': 2, 'rec_avg_loss': '6.8899', 'rec_cur_loss': '11.3031'}
+valid_loss: 5.242339460746102 {'epoch': 3, 'rec_avg_loss': '6.8888', 'rec_cur_loss': '10.0694'}
+valid_loss: 5.243117274225825 {'epoch': 4, 'rec_avg_loss': '6.8902', 'rec_cur_loss': '4.3038'}
+valid_loss: 5.241637241657433 {'epoch': 5, 'rec_avg_loss': '6.8901', 'rec_cur_loss': '3.5834'}
+valid_loss: 5.241728755519214 {'epoch': 6, 'rec_avg_loss': '6.8899', 'rec_cur_loss': '8.5817'}
+valid_loss: 5.238976299000518 {'epoch': 7, 'rec_avg_loss': '6.8889', 'rec_cur_loss': '6.5015'}
+valid_loss: 5.243558587168184 {'epoch': 8, 'rec_avg_loss': '6.8889', 'rec_cur_loss': '7.4107'}
+valid_loss: 5.236390651644343 {'epoch': 9, 'rec_avg_loss': '6.8897', 'rec_cur_loss': '6.8397'}
+valid_loss: 5.238101976149527 {'epoch': 10, 'rec_avg_loss': '6.8900', 'rec_cur_loss': '5.2220'}
+valid_loss: 5.243197467016137 {'epoch': 11, 'rec_avg_loss': '6.8893', 'rec_cur_loss': '6.0384'}
+valid_loss: 5.238611980777263 {'epoch': 12, 'rec_avg_loss': '6.8892', 'rec_cur_loss': '5.5800'}
+valid_loss: 5.240308691016244 {'epoch': 13, 'rec_avg_loss': '6.8894', 'rec_cur_loss': '6.4113'}
+valid_loss: 5.2403364497072555 {'epoch': 14, 'rec_avg_loss': '6.8901', 'rec_cur_loss': '9.5956'}
+valid_loss: 5.241403004245075 {'epoch': 15, 'rec_avg_loss': '6.8896', 'rec_cur_loss': '4.3975'}
+valid_loss: 5.239659810157688 {'epoch': 16, 'rec_avg_loss': '6.8884', 'rec_cur_loss': '7.9086'}
+valid_loss: 5.242427941021102 {'epoch': 17, 'rec_avg_loss': '6.8896', 'rec_cur_loss': '3.9390'}
+valid_loss: 5.245245298080127 {'epoch': 18, 'rec_avg_loss': '6.8897', 'rec_cur_loss': '2.1103'}
+valid_loss: 5.244778229300018 valid_loss: 3.3042322192960385 Finetune_sample_remaining-BPI2012_Sample-50 
+[3.3042322192960385]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '6.8925', 'rec_cur_loss': '5.0734'}
+valid_loss: 5.463124294415154 {'epoch': 1, 'rec_avg_loss': '6.8974', 'rec_cur_loss': '12.9865'}
+valid_loss: 5.460448785511124 {'epoch': 2, 'rec_avg_loss': '6.8915', 'rec_cur_loss': '9.1817'}
+valid_loss: 5.460956972883181 {'epoch': 3, 'rec_avg_loss': '6.8923', 'rec_cur_loss': '7.6607'}
+valid_loss: 5.4628131420106225 {'epoch': 4, 'rec_avg_loss': '6.8920', 'rec_cur_loss': '7.7814'}
+valid_loss: 5.459311508156759 {'epoch': 5, 'rec_avg_loss': '6.8936', 'rec_cur_loss': '4.9854'}
+valid_loss: 5.459216119383302 {'epoch': 6, 'rec_avg_loss': '6.8959', 'rec_cur_loss': '9.9458'}
+valid_loss: 5.459398221481791 {'epoch': 7, 'rec_avg_loss': '6.8911', 'rec_cur_loss': '7.4016'}
+valid_loss: 5.4587798767992295 {'epoch': 8, 'rec_avg_loss': '6.8928', 'rec_cur_loss': '7.5251'}
+valid_loss: 5.461271125337352 {'epoch': 9, 'rec_avg_loss': '6.8909', 'rec_cur_loss': '6.1852'}
+valid_loss: 5.458588057771668 {'epoch': 10, 'rec_avg_loss': '6.8931', 'rec_cur_loss': '3.7378'}
+valid_loss: 5.455060963740435 {'epoch': 11, 'rec_avg_loss': '6.8974', 'rec_cur_loss': '6.2333'}
+valid_loss: 5.4597284961539465 {'epoch': 12, 'rec_avg_loss': '6.8949', 'rec_cur_loss': '3.4867'}
+valid_loss: 5.46159840910636 {'epoch': 13, 'rec_avg_loss': '6.8941', 'rec_cur_loss': '4.8269'}
+valid_loss: 5.461341440220318 {'epoch': 14, 'rec_avg_loss': '6.8941', 'rec_cur_loss': '8.4473'}
+valid_loss: 5.461924515721743 {'epoch': 15, 'rec_avg_loss': '6.8943', 'rec_cur_loss': '5.9001'}
+valid_loss: 5.455322116537167 {'epoch': 16, 'rec_avg_loss': '6.8950', 'rec_cur_loss': '6.3996'}
+valid_loss: 5.460948783418407 {'epoch': 17, 'rec_avg_loss': '6.8916', 'rec_cur_loss': '4.7922'}
+valid_loss: 5.461123272586052 {'epoch': 18, 'rec_avg_loss': '6.8961', 'rec_cur_loss': '4.1054'}
+valid_loss: 5.460166342118207 {'epoch': 19, 'rec_avg_loss': '6.8914', 'rec_cur_loss': '7.8818'}
+valid_loss: 5.459524366861719 {'epoch': 20, 'rec_avg_loss': '6.8910', 'rec_cur_loss': '11.7271'}
+valid_loss: 5.461274327219599 valid_loss: 3.917123208265475 Finetune_sample_remaining-BPI2012_Sample-50 
+[3.917123208265475]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '6.8925', 'rec_cur_loss': '5.0734'}
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '6.9095', 'rec_cur_loss': '5.1937'}
+valid_loss: 5.4098917550747965 {'epoch': 1, 'rec_avg_loss': '6.9075', 'rec_cur_loss': '13.0364'}
+valid_loss: 5.40693854736855 {'epoch': 2, 'rec_avg_loss': '6.9081', 'rec_cur_loss': '8.7353'}
+valid_loss: 5.407227195284861 {'epoch': 3, 'rec_avg_loss': '6.9040', 'rec_cur_loss': '7.5278'}
+valid_loss: 5.408979043326415 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=64, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '6.8906', 'rec_cur_loss': '5.0856'}
+valid_loss: 5.333140479375238 {'epoch': 1, 'rec_avg_loss': '6.8867', 'rec_cur_loss': '5.7407'}
+valid_loss: 5.33317416171505 {'epoch': 2, 'rec_avg_loss': '6.8836', 'rec_cur_loss': '5.6297'}
+valid_loss: 5.329044877666316 {'epoch': 3, 'rec_avg_loss': '6.8856', 'rec_cur_loss': '6.5084'}
+valid_loss: 5.3299566588989675 {'epoch': 4, 'rec_avg_loss': '6.8866', 'rec_cur_loss': '6.4886'}
+valid_loss: 5.321968841226133 {'epoch': 5, 'rec_avg_loss': '6.8840', 'rec_cur_loss': '4.7777'}
+valid_loss: 5.331940908954568 {'epoch': 6, 'rec_avg_loss': '6.8854', 'rec_cur_loss': '7.2617'}
+valid_loss: 5.332466197340456 {'epoch': 7, 'rec_avg_loss': '6.8907', 'rec_cur_loss': '5.1436'}
+valid_loss: 5.329272990357386 {'epoch': 8, 'rec_avg_loss': '6.8908', 'rec_cur_loss': '7.0559'}
+valid_loss: 5.330240140222523 {'epoch': 9, 'rec_avg_loss': '6.8884', 'rec_cur_loss': '5.1426'}
+valid_loss: 5.327360710052595 {'epoch': 10, 'rec_avg_loss': '6.8823', 'rec_cur_loss': '5.4755'}
+valid_loss: 5.318747949926821 {'epoch': 11, 'rec_avg_loss': '6.8888', 'rec_cur_loss': '6.5207'}
+valid_loss: 5.330238621528834 {'epoch': 12, 'rec_avg_loss': '6.8864', 'rec_cur_loss': '5.7225'}
+valid_loss: 5.334842174020532 {'epoch': 13, 'rec_avg_loss': '6.8851', 'rec_cur_loss': '7.9882'}
+valid_loss: 5.327232586194391 {'epoch': 14, 'rec_avg_loss': '6.8889', 'rec_cur_loss': '5.4901'}
+valid_loss: 5.3282044717710315 {'epoch': 15, 'rec_avg_loss': '6.8857', 'rec_cur_loss': '3.8540'}
+valid_loss: 5.331138983164748 {'epoch': 16, 'rec_avg_loss': '6.8844', 'rec_cur_loss': '7.1058'}
+valid_loss: 5.3337311614049625 {'epoch': 17, 'rec_avg_loss': '6.8871', 'rec_cur_loss': '6.0041'}
+valid_loss: 5.334441591615546 {'epoch': 18, 'rec_avg_loss': '6.8891', 'rec_cur_loss': '6.2325'}
+valid_loss: 5.333834269275404 {'epoch': 19, 'rec_avg_loss': '6.8854', 'rec_cur_loss': '6.7962'}
+valid_loss: 5.332447726432592 {'epoch': 20, 'rec_avg_loss': '6.8884', 'rec_cur_loss': '6.7531'}
+valid_loss: 5.325000364486486 valid_loss: 3.632713850230387 Finetune_sample_remaining-BPI2012_Sample-50 
+[3.632713850230387]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.4888', 'rec_cur_loss': '0.5265'}
+valid_loss: 5.808307859217725 {'epoch': 1, 'rec_avg_loss': '0.4898', 'rec_cur_loss': '0.4491'}
+valid_loss: 5.802811999378911 {'epoch': 2, 'rec_avg_loss': '0.4853', 'rec_cur_loss': '0.4868'}
+valid_loss: 5.757147406296962 {'epoch': 3, 'rec_avg_loss': '0.4881', 'rec_cur_loss': '0.4652'}
+valid_loss: 5.809566842015747 {'epoch': 4, 'rec_avg_loss': '0.4872', 'rec_cur_loss': '0.3973'}
+valid_loss: 5.804956246862936 {'epoch': 5, 'rec_avg_loss': '0.4891', 'rec_cur_loss': '0.2987'}
+valid_loss: 5.821517432675414 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 6, 'rec_avg_loss': '0.4878', 'rec_cur_loss': '0.4475'}
+valid_loss: 5.799908091573764 {'epoch': 7, 'rec_avg_loss': '0.4888', 'rec_cur_loss': '0.4953'}
+valid_loss: 5.811955864853261 {'epoch': 8, 'rec_avg_loss': '0.4871', 'rec_cur_loss': '0.3242'}
+valid_loss: 5.788207315575436 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 9, 'rec_avg_loss': '0.4895', 'rec_cur_loss': '0.6189'}
+valid_loss: 5.761607881778342 {'epoch': 10, 'rec_avg_loss': '0.4874', 'rec_cur_loss': '0.2427'}
+valid_loss: 5.756259806397016 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=True, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 11, 'rec_avg_loss': '0.4880', 'rec_cur_loss': '0.5015'}
+valid_loss: 5.804855645007795 {'epoch': 12, 'rec_avg_loss': '0.4857', 'rec_cur_loss': '0.5351'}
+valid_loss: 5.8027192664039715 {'epoch': 13, 'rec_avg_loss': '0.4877', 'rec_cur_loss': '0.4906'}
+valid_loss: 5.794991589187052 {'epoch': 14, 'rec_avg_loss': '0.4874', 'rec_cur_loss': '0.3799'}
+valid_loss: 5.75485756231086 {'epoch': 15, 'rec_avg_loss': '0.4888', 'rec_cur_loss': '0.6591'}
+valid_loss: 5.807094797301476 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=128, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.4589', 'rec_cur_loss': '0.4611'}
+valid_loss: 5.908245308758461 {'epoch': 16, 'rec_avg_loss': '0.4880', 'rec_cur_loss': '0.6091'}
+{'epoch': 1, 'rec_avg_loss': '0.4469', 'rec_cur_loss': '0.3906'}
+valid_loss: 5.903831704022133 valid_loss: 5.824302515334181 {'epoch': 2, 'rec_avg_loss': '0.4474', 'rec_cur_loss': '0.4537'}
+valid_loss: 5.887689668838292 {'epoch': 3, 'rec_avg_loss': '0.4468', 'rec_cur_loss': '0.3880'}
+valid_loss: 5.8955662021898245 {'epoch': 4, 'rec_avg_loss': '0.4460', 'rec_cur_loss': '0.4855'}
+valid_loss: 5.900933213429909 {'epoch': 5, 'rec_avg_loss': '0.4482', 'rec_cur_loss': '0.4200'}
+valid_loss: 5.893042789746637 {'epoch': 6, 'rec_avg_loss': '0.4463', 'rec_cur_loss': '0.4647'}
+valid_loss: 5.8995295485405075 {'epoch': 7, 'rec_avg_loss': '0.4453', 'rec_cur_loss': '0.3912'}
+valid_loss: 5.903594343629602 {'epoch': 8, 'rec_avg_loss': '0.4468', 'rec_cur_loss': '0.4417'}
+valid_loss: 5.89393783595464 {'epoch': 17, 'rec_avg_loss': '0.4880', 'rec_cur_loss': '0.4812'}
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=128, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+valid_loss: 5.787956809220106 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 18, 'rec_avg_loss': '0.4886', 'rec_cur_loss': '0.6349'}
+valid_loss: 5.789761672468137 {'epoch': 0, 'rec_avg_loss': '0.1833', 'rec_cur_loss': '0.1728'}
+{'epoch': 19, 'rec_avg_loss': '0.4863', 'rec_cur_loss': '0.5214'}
+valid_loss: 5.787797444540521 {'epoch': 20, 'rec_avg_loss': '0.4896', 'rec_cur_loss': '0.7651'}
+valid_loss: 5.768886818643421 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 21, 'rec_avg_loss': '0.4883', 'rec_cur_loss': '0.5374'}
+valid_loss: 5.804189860896991 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', weight_decay=0.0)
+{'epoch': 22, 'rec_avg_loss': '0.4875', 'rec_cur_loss': '0.4192'}
+valid_loss: 5.8063532521047865 {'epoch': 23, 'rec_avg_loss': '0.4887', 'rec_cur_loss': '0.4881'}
+valid_loss: 5.805891977322986 {'epoch': 24, 'rec_avg_loss': '0.4871', 'rec_cur_loss': '0.4999'}
+valid_loss: 5.802299468756637 valid_loss: 3.4705621295077416 Finetune_sample_remaining-BPI2012_Sample-50 
+[3.4705621295077416]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', time_scaler=StandardScaler(), weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '1.4046', 'rec_cur_loss': '1.1768'}
+valid_loss: 6.878121492198057 {'epoch': 1, 'rec_avg_loss': '1.4023', 'rec_cur_loss': '4.1021'}
+valid_loss: 6.8765876393793794 {'epoch': 2, 'rec_avg_loss': '1.4007', 'rec_cur_loss': '2.1587'}
+valid_loss: 6.878405563666693 {'epoch': 3, 'rec_avg_loss': '1.4041', 'rec_cur_loss': '1.4514'}
+valid_loss: 6.876427902894862 {'epoch': 4, 'rec_avg_loss': '1.4006', 'rec_cur_loss': '1.0420'}
+valid_loss: 6.874055649923242 {'epoch': 5, 'rec_avg_loss': '1.4085', 'rec_cur_loss': '0.3272'}
+valid_loss: 6.876896391744199 {'epoch': 6, 'rec_avg_loss': '1.3998', 'rec_cur_loss': '2.0086'}
+valid_loss: 6.877528737573063 {'epoch': 7, 'rec_avg_loss': '1.3984', 'rec_cur_loss': '1.1804'}
+valid_loss: 6.875392586069034 {'epoch': 8, 'rec_avg_loss': '1.3935', 'rec_cur_loss': '0.7555'}
+valid_loss: 6.876406570834577 {'epoch': 9, 'rec_avg_loss': '1.4078', 'rec_cur_loss': '0.7931'}
+valid_loss: 6.87491518213316 {'epoch': 10, 'rec_avg_loss': '1.3978', 'rec_cur_loss': '0.9803'}
+valid_loss: 6.8728692668783085 {'epoch': 11, 'rec_avg_loss': '1.4049', 'rec_cur_loss': '1.4398'}
+valid_loss: 6.876679334494159 {'epoch': 12, 'rec_avg_loss': '1.3993', 'rec_cur_loss': '1.1222'}
+valid_loss: 6.874939789552518 {'epoch': 13, 'rec_avg_loss': '1.4060', 'rec_cur_loss': '1.1695'}
+valid_loss: 6.876311828108395 {'epoch': 14, 'rec_avg_loss': '1.4000', 'rec_cur_loss': '0.7748'}
+valid_loss: 6.876884127516881 {'epoch': 15, 'rec_avg_loss': '1.4087', 'rec_cur_loss': '0.7190'}
+valid_loss: 6.871605811216642 {'epoch': 16, 'rec_avg_loss': '1.4001', 'rec_cur_loss': '1.2265'}
+valid_loss: 6.878456260847009 {'epoch': 17, 'rec_avg_loss': '1.4027', 'rec_cur_loss': '0.9635'}
+valid_loss: 6.87486569686314 {'epoch': 18, 'rec_avg_loss': '1.4007', 'rec_cur_loss': '0.9183'}
+valid_loss: 6.877367294657871 {'epoch': 19, 'rec_avg_loss': '1.4010', 'rec_cur_loss': '0.7585'}
+valid_loss: 6.875153591260886 {'epoch': 20, 'rec_avg_loss': '1.4078', 'rec_cur_loss': '2.5488'}
+valid_loss: 6.876095826363625 {'epoch': 21, 'rec_avg_loss': '1.4037', 'rec_cur_loss': '1.6283'}
+valid_loss: 6.877394294494863 {'epoch': 22, 'rec_avg_loss': '1.4004', 'rec_cur_loss': '1.2908'}
+valid_loss: 6.875982266557796 {'epoch': 23, 'rec_avg_loss': '1.4010', 'rec_cur_loss': '1.0864'}
+valid_loss: 6.877959210244591 {'epoch': 24, 'rec_avg_loss': '1.3992', 'rec_cur_loss': '3.4978'}
+valid_loss: 6.873854504216967 {'epoch': 25, 'rec_avg_loss': '1.4011', 'rec_cur_loss': '1.9359'}
+valid_loss: 6.874171865565698 valid_loss: 5.463995213703731 Finetune_sample_remaining-BPI2012_Sample-50 
+[5.463995213703731]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', time_scaler=StandardScaler(), weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.2424', 'rec_cur_loss': '-0.4492'}
+valid_loss: 39.81444033942259 {'epoch': 1, 'rec_avg_loss': '0.2472', 'rec_cur_loss': '2.4282'}
+valid_loss: 39.806833135502416 {'epoch': 2, 'rec_avg_loss': '0.2487', 'rec_cur_loss': '0.5958'}
+valid_loss: 39.80784801570961 {'epoch': 3, 'rec_avg_loss': '0.2487', 'rec_cur_loss': '0.0470'}
+valid_loss: 39.808797314343856 {'epoch': 4, 'rec_avg_loss': '0.2428', 'rec_cur_loss': '0.8835'}
+valid_loss: 39.80438901213429 {'epoch': 5, 'rec_avg_loss': '0.2475', 'rec_cur_loss': '-0.3373'}
+valid_loss: 39.80428843973848 {'epoch': 6, 'rec_avg_loss': '0.2457', 'rec_cur_loss': '1.5730'}
+valid_loss: 39.81297867865209 {'epoch': 7, 'rec_avg_loss': '0.2479', 'rec_cur_loss': '0.5223'}
+valid_loss: 39.80592766198356 {'epoch': 8, 'rec_avg_loss': '0.2467', 'rec_cur_loss': '0.4585'}
+valid_loss: 39.80953810465 {'epoch': 9, 'rec_avg_loss': '0.2467', 'rec_cur_loss': '-0.0182'}
+valid_loss: 39.80618943216856 {'epoch': 10, 'rec_avg_loss': '0.2442', 'rec_cur_loss': '-0.7073'}
+valid_loss: 39.799442469311494 {'epoch': 11, 'rec_avg_loss': '0.2512', 'rec_cur_loss': '-0.1641'}
+valid_loss: 39.80955229025058 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', time_scaler=StandardScaler(), weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.2424', 'rec_cur_loss': '-0.4492'}
+valid_loss: 39.81444033942259 {'epoch': 1, 'rec_avg_loss': '0.2472', 'rec_cur_loss': '2.4282'}
+valid_loss: 39.806833135502416 {'epoch': 2, 'rec_avg_loss': '0.2487', 'rec_cur_loss': '0.5958'}
+valid_loss: 39.80784801570961 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', time_scaler=StandardScaler(), weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.8413', 'rec_cur_loss': '0.8719'}
+valid_loss: 6.940100907059887 {'epoch': 1, 'rec_avg_loss': '0.8396', 'rec_cur_loss': '1.2481'}
+valid_loss: 6.9419411768388875 {'epoch': 2, 'rec_avg_loss': '0.8411', 'rec_cur_loss': '0.6449'}
+valid_loss: 6.940081413139772 {'epoch': 3, 'rec_avg_loss': '0.8433', 'rec_cur_loss': '1.4978'}
+valid_loss: 6.941886594838194 {'epoch': 4, 'rec_avg_loss': '0.8403', 'rec_cur_loss': '1.2803'}
+valid_loss: 6.9403128627011235 {'epoch': 5, 'rec_avg_loss': '0.8414', 'rec_cur_loss': '0.4469'}
+valid_loss: 6.937677624280496 {'epoch': 6, 'rec_avg_loss': '0.8405', 'rec_cur_loss': '0.6819'}
+valid_loss: 6.937937767304423 {'epoch': 7, 'rec_avg_loss': '0.8384', 'rec_cur_loss': '0.8990'}
+valid_loss: 6.936666031932587 {'epoch': 8, 'rec_avg_loss': '0.8400', 'rec_cur_loss': '0.8754'}
+valid_loss: 6.938851458337301 {'epoch': 9, 'rec_avg_loss': '0.8382', 'rec_cur_loss': '0.5372'}
+valid_loss: 6.939851075791947 {'epoch': 10, 'rec_avg_loss': '0.8385', 'rec_cur_loss': '1.0028'}
+valid_loss: 6.940011405578964 {'epoch': 11, 'rec_avg_loss': '0.8389', 'rec_cur_loss': '0.7478'}
+valid_loss: 6.9424158853033315 {'epoch': 12, 'rec_avg_loss': '0.8410', 'rec_cur_loss': '0.6524'}
+valid_loss: 6.938819646530444 {'epoch': 13, 'rec_avg_loss': '0.8393', 'rec_cur_loss': '1.1825'}
+valid_loss: 6.939978534303358 {'epoch': 14, 'rec_avg_loss': '0.8403', 'rec_cur_loss': '0.7337'}
+valid_loss: 6.9415906240873015 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', time_scaler=MinMaxScaler(), weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.3841', 'rec_cur_loss': '0.3172'}
+valid_loss: 27.93716452615645 {'epoch': 1, 'rec_avg_loss': '0.3821', 'rec_cur_loss': '0.2450'}
+valid_loss: 27.952701824705315 {'epoch': 2, 'rec_avg_loss': '0.3807', 'rec_cur_loss': '0.3374'}
+valid_loss: 27.950481353818304 {'epoch': 3, 'rec_avg_loss': '0.3818', 'rec_cur_loss': '0.3867'}
+valid_loss: 27.951220246532078 {'epoch': 4, 'rec_avg_loss': '0.3816', 'rec_cur_loss': '0.2983'}
+valid_loss: 27.937845375226892 {'epoch': 5, 'rec_avg_loss': '0.3808', 'rec_cur_loss': '0.3918'}
+valid_loss: 27.947589596214197 {'epoch': 6, 'rec_avg_loss': '0.3813', 'rec_cur_loss': '0.2959'}
+valid_loss: 27.94399803312843 {'epoch': 7, 'rec_avg_loss': '0.3796', 'rec_cur_loss': '0.4140'}
+valid_loss: 27.951740503920924 {'epoch': 8, 'rec_avg_loss': '0.3798', 'rec_cur_loss': '0.4875'}
+valid_loss: 27.957146892157358 {'epoch': 9, 'rec_avg_loss': '0.3805', 'rec_cur_loss': '0.4375'}
+valid_loss: 27.95000746061125 {'epoch': 10, 'rec_avg_loss': '0.3800', 'rec_cur_loss': '0.5474'}
+valid_loss: 27.943975209580053 valid_loss: 29.71016791043684 Finetune_sample_remaining-BPI2012_Sample-50 
+[29.71016791043684]
+Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=12, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', time_scaler=MinMaxScaler(), weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '16433792.9042', 'rec_cur_loss': '11317122.0000'}
+valid_loss: 1545980550.629156 {'epoch': 1, 'rec_avg_loss': '16432547.1497', 'rec_cur_loss': '21858548.0000'}
+valid_loss: 1546509860.173913 {'epoch': 2, 'rec_avg_loss': '16433386.3009', 'rec_cur_loss': '17333292.0000'}
+valid_loss: 1546009613.421995 {'epoch': 3, 'rec_avg_loss': '16432993.9353', 'rec_cur_loss': '18815208.0000'}
+valid_loss: 1546864771.6828644 {'epoch': 4, 'rec_avg_loss': '16432755.4895', 'rec_cur_loss': '18132644.0000'}
+valid_loss: 1546455865.1253197 {'epoch': 5, 'rec_avg_loss': '16432513.5907', 'rec_cur_loss': '17585718.0000'}
+valid_loss: 1546012036.746803 {'epoch': 6, 'rec_avg_loss': '16433319.7930', 'rec_cur_loss': '16424556.0000'}
+valid_loss: 1546283492.337596 {'epoch': 7, 'rec_avg_loss': '16432688.2732', 'rec_cur_loss': '16225560.0000'}
+valid_loss: 1546904995.1099744 {'epoch': 8, 'rec_avg_loss': '16433171.9718', 'rec_cur_loss': '23643960.0000'}
+valid_loss: 1545919597.3401535 {'epoch': 9, 'rec_avg_loss': '16431636.6828', 'rec_cur_loss': '11232979.0000'}
+valid_loss: 1546767094.751918 {'epoch': 10, 'rec_avg_loss': '16432553.8955', 'rec_cur_loss': '15818731.0000'}
+valid_loss: 1546355320.061381 {'epoch': 11, 'rec_avg_loss': '16433299.6315', 'rec_cur_loss': '13492199.0000'}
+valid_loss: 1546661759.0179029 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=64, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', time_scaler=MinMaxScaler(), weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '39749315.6150', 'rec_cur_loss': '40529020.0000'}
+valid_loss: 3736719100.4931507 {'epoch': 1, 'rec_avg_loss': '39718983.2181', 'rec_cur_loss': '40895416.0000'}
+valid_loss: 3735236886.7945204 {'epoch': 2, 'rec_avg_loss': '39721224.4361', 'rec_cur_loss': '37758792.0000'}
+valid_loss: 3735845041.0958905 {'epoch': 3, 'rec_avg_loss': '39719129.2675', 'rec_cur_loss': '38977032.0000'}
+valid_loss: 3735487065.4246573 {'epoch': 4, 'rec_avg_loss': '39720183.2930', 'rec_cur_loss': '30747156.0000'}
+valid_loss: 3735598641.0958905 {'epoch': 5, 'rec_avg_loss': '39720116.0784', 'rec_cur_loss': '37397048.0000'}
+valid_loss: 3739263395.0684934 {'epoch': 6, 'rec_avg_loss': '39720421.7853', 'rec_cur_loss': '39160080.0000'}
+valid_loss: 3736951557.260274 {'epoch': 7, 'rec_avg_loss': '39720119.3765', 'rec_cur_loss': '42541136.0000'}
+valid_loss: 3735101169.972603 {'epoch': 8, 'rec_avg_loss': '39719519.0716', 'rec_cur_loss': '34084212.0000'}
+valid_loss: 3738216828.4931507 {'epoch': 9, 'rec_avg_loss': '39720217.4906', 'rec_cur_loss': '39080148.0000'}
+valid_loss: 3739221572.3835616 {'epoch': 10, 'rec_avg_loss': '39720249.8279', 'rec_cur_loss': '37815840.0000'}
+valid_loss: 3739462175.5616436 {'epoch': 11, 'rec_avg_loss': '39719767.5741', 'rec_cur_loss': '36313500.0000'}
+valid_loss: 3738059262.2465754 {'epoch': 12, 'rec_avg_loss': '39717712.7087', 'rec_cur_loss': '43519472.0000'}
+valid_loss: 3741328839.890411 {'epoch': 13, 'rec_avg_loss': '39718617.5945', 'rec_cur_loss': '38561368.0000'}
+valid_loss: 3738911568.657534 {'epoch': 14, 'rec_avg_loss': '39721711.6320', 'rec_cur_loss': '40939040.0000'}
+valid_loss: 3738860081.0958905 {'epoch': 15, 'rec_avg_loss': '39719793.6508', 'rec_cur_loss': '40843704.0000'}
+valid_loss: 3736710173.808219 {'epoch': 16, 'rec_avg_loss': '39721628.8313', 'rec_cur_loss': '39642664.0000'}
+valid_loss: 3736891125.479452 {'epoch': 17, 'rec_avg_loss': '39720652.8279', 'rec_cur_loss': '42199300.0000'}
+valid_loss: 3733969201.0958905 {'epoch': 18, 'rec_avg_loss': '39720217.4634', 'rec_cur_loss': '38980920.0000'}
+valid_loss: 3736325986.191781 {'epoch': 19, 'rec_avg_loss': '39719965.5809', 'rec_cur_loss': '37360136.0000'}
+valid_loss: 3739558652.4931507 {'epoch': 20, 'rec_avg_loss': '39721610.9319', 'rec_cur_loss': '44262444.0000'}
+valid_loss: 3738687521.3150687 {'epoch': 21, 'rec_avg_loss': '39722370.1993', 'rec_cur_loss': '37665020.0000'}
+valid_loss: 3739587687.452055 {'epoch': 22, 'rec_avg_loss': '39721192.2044', 'rec_cur_loss': '38347816.0000'}
+valid_loss: 3735346414.4657536 {'epoch': 23, 'rec_avg_loss': '39720587.2300', 'rec_cur_loss': '44579648.0000'}
+valid_loss: 3740545448.3287673 {'epoch': 24, 'rec_avg_loss': '39720331.1431', 'rec_cur_loss': '34694552.0000'}
+valid_loss: 3734579035.178082 Namespace(activity_size=200, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=200, batch_size=64, ckp=50, cuda_condition=True, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cuda', index=0), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', time_scaler=MinMaxScaler(), weight_decay=0.0)
+{'epoch': 0, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.0831'}
+valid_loss: 5.821488400028176 {'epoch': 1, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.0808'}
+valid_loss: 5.81795966788514 {'epoch': 2, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.0827'}
+valid_loss: 5.810566422057478 {'epoch': 3, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.0862'}
+valid_loss: 5.8151947602833785 {'epoch': 4, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.0804'}
+valid_loss: 5.819998927312355 {'epoch': 5, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.0850'}
+valid_loss: 5.817629791285894 {'epoch': 6, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.0604'}
+valid_loss: 5.819463827838637 {'epoch': 7, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.0773'}
+valid_loss: 5.814318013517824 {'epoch': 8, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.0829'}
+valid_loss: 5.8112173798966085 {'epoch': 9, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.0653'}
+valid_loss: 5.817971422247691 {'epoch': 10, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.0723'}
+valid_loss: 5.8130308438653815 {'epoch': 11, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.1071'}
+valid_loss: 5.820421153551911 {'epoch': 12, 'rec_avg_loss': '0.0830', 'rec_cur_loss': '0.0848'}
+valid_loss: 5.819356802391679 valid_loss: 4.044067820457563 Finetune_sample_remaining-BPI2012_Sample-50 
+[4.044067820457563]
+Namespace(activity_size=100, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=100, batch_size=12, ckp=50, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cpu'), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', time_scaler=MinMaxScaler(), weight_decay=0.0)
+Namespace(activity_size=100, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=100, batch_size=12, ckp=50, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cpu'), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', time_scaler=MinMaxScaler(), weight_decay=0.0)
+Namespace(activity_size=100, adam_beta1=0.9, adam_beta2=0.999, attention_probs_dropout_prob=0.5, attribute_file='./data/BPI2012_Sample_attributes.txt', attribute_size=100, batch_size=12, ckp=50, cuda_condition=False, d_model=64, data_dir='./data/', data_file='./data/BPI2012_Sample.txt', data_name='BPI2012_Sample', device=device(type='cpu'), do_eval=False, embed_dim=36, epochs=100, gpu_id='0', hidden_act='gelu', hidden_dropout_prob=0.5, hidden_size=64, initializer_range=1, log_file='output/Finetune_sample_remaining-BPI2012_Sample-50 .txt', log_freq=1, lr=0.01, mask_id=25, max_seq_length=200, max_time_attr_len=3, model_name='Finetune_sample_remaining', no_cuda=False, num_attention_heads=4, num_cases=93942, num_classes=1, num_hidden_layers=2, output_dir='output/', seed=2023, time_attributes_file='./data/BPI2012_Sample_time_attributes.txt', time_scaler=MinMaxScaler(), weight_decay=0.0)
